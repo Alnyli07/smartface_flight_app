@@ -1,0 +1,47 @@
+{
+  "#pgSearchFligthDetails": {
+    "&-label1": {
+      "left": 5,
+      "node": null,
+      "x": 5,
+      "y": 94,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 5,
+      "lastY": 94,
+      "bottom": 26
+    },
+    "&-lblDestination": {
+      "bottom": 26,
+      "right": 5,
+      "left": 363,
+      "top": 80,
+      "node": null,
+      "x": 363,
+      "y": 80,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 363,
+      "lastY": 80
+    },
+    "&-lblDeparture": {
+      "left": 5,
+      "top": 80,
+      "node": null,
+      "x": 5,
+      "y": 80,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 5,
+      "lastY": 80
+    },
+    "&-flightItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    }
+  }
+}

@@ -8,6 +8,7 @@
 				"children": [
 					"3c37-e011-a7a3-b5d9",
 					"19da-8571-e870-cd5a",
+					"8bad-2c7f-ff52-0c73",
 					"8a7b-39cd-f062-5227"
 				],
 				"name": "page3",
@@ -19,8 +20,7 @@
 			"userProps": {
 				"safeAreaEnabled": true
 			},
-			"version": "0.0.1.a",
-			"degree": 0
+			"version": "0.0.1.a"
 		},
 		{
 			"className": ".sf-statusBar",
@@ -32,8 +32,7 @@
 				"parent": "c56a-6909-78ff-2657"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
 			"className": ".sf-headerBar",
@@ -48,8 +47,18 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Modal Page"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #page3-flayout #page3-flexLayout1",
+			"id": "8bad-2c7f-ff52-0c73",
+			"props": {
+				"children": [],
+				"name": "flexLayout1",
+				"parent": "c56a-6909-78ff-2657"
 			},
-			"degree": 1
+			"type": "FlexLayout",
+			"userProps": {}
 		},
 		{
 			"className": ".sf-button #page3-btnGoBack",
@@ -64,11 +73,10 @@
 			},
 			"type": "Button",
 			"userProps": {
+				"testId": "B5heovCcX",
 				"text": "Dismiss",
-				"usePageVariable": true,
-				"testId": "B5heovCcX"
-			},
-			"degree": 1
+				"usePageVariable": true
+			}
 		}
 	]
 }

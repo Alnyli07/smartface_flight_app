@@ -1,0 +1,15 @@
+{
+  ".sf": {
+    "&-switch": {
+      "ios": {
+        "shadowOffset": {
+          "x": 5,
+          "y": 5
+        },
+        "shadowRadius": 5,
+        "shadowOpacity": 1
+      },
+      "shadowColor": "rgba( 199, 26, 26, 1 )"
+    }
+  }
+}

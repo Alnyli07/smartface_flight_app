@@ -1,0 +1,124 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .cartItem_main",
+			"hiddenComponent": false,
+			"id": "b4ba-3004-ccc7-0c8a",
+			"props": {
+				"children": [
+					"fa31-69db-89ed-18ae"
+				],
+				"name": "cartItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"left": 92,
+				"top": 52
+			}
+		},
+		{
+			"className": ".sf-flexLayout .cartItem",
+			"id": "fa31-69db-89ed-18ae",
+			"props": {
+				"children": [
+					"d091-db88-747e-a70f",
+					"4f97-2c80-1c28-f578",
+					"af6b-7528-f625-2960",
+					"a3c9-6c0f-dc87-3315",
+					"fae7-f8d7-02cb-5532",
+					"9d63-2774-f250-46cd"
+				],
+				"name": "flexLayout1",
+				"parent": "b4ba-3004-ccc7-0c8a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .cartItem_image",
+			"hiddenComponent": false,
+			"id": "d091-db88-747e-a70f",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "img",
+				"parent": "fa31-69db-89ed-18ae"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon .cartItem_map",
+			"id": "4f97-2c80-1c28-f578",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "icMap",
+				"parent": "fa31-69db-89ed-18ae"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .cartItem_lblCity",
+			"id": "af6b-7528-f625-2960",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblCity",
+				"parent": "fa31-69db-89ed-18ae",
+				"text": "Rome"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Rome"
+			}
+		},
+		{
+			"className": ".sf-label .cartItem_lblCity.country",
+			"id": "a3c9-6c0f-dc87-3315",
+			"oldName": "lblCity_1",
+			"props": {
+				"children": [],
+				"name": "lblCountry",
+				"parent": "fa31-69db-89ed-18ae",
+				"text": "Italy"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Italy"
+			}
+		},
+		{
+			"className": ".sf-icon .cartItem-icStar",
+			"id": "fae7-f8d7-02cb-5532",
+			"oldName": "icMap_1",
+			"props": {
+				"children": [],
+				"name": "icStar",
+				"parent": "fa31-69db-89ed-18ae"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .cartItem_lblpoint",
+			"id": "9d63-2774-f250-46cd",
+			"oldName": "lblCountry_1",
+			"props": {
+				"children": [],
+				"name": "lblPoint",
+				"parent": "fa31-69db-89ed-18ae",
+				"text": "4.5"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "4.5"
+			}
+		}
+	]
+}

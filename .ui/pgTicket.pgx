@@ -1,0 +1,100 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "91e2-8338-b9c2-a27a",
+			"initialized": true,
+			"props": {
+				"children": [
+					"8aa2-62a2-8a94-aed5",
+					"91c5-3fe1-eae9-c54f",
+					"44d0-3e2a-ee09-d368",
+					"55d4-8ea9-e82d-4480"
+				],
+				"name": "pgTicket",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "8aa2-62a2-8a94-aed5",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "91e2-8338-b9c2-a27a"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #pgSearchFlights-header",
+			"id": "91c5-3fe1-eae9-c54f",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "91e2-8338-b9c2-a27a",
+				"title": "Boarding Pass"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Boarding Pass"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flwrapper",
+			"id": "44d0-3e2a-ee09-d368",
+			"props": {
+				"children": [
+					"4e09-3c76-3e39-0486",
+					"3e20-a7b2-00ae-88be"
+				],
+				"name": "flexLayout4",
+				"parent": "91e2-8338-b9c2-a27a"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flshadow",
+			"id": "4e09-3c76-3e39-0486",
+			"props": {
+				"children": [],
+				"name": "flexLayout5",
+				"parent": "44d0-3e2a-ee09-d368"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flcard",
+			"id": "3e20-a7b2-00ae-88be",
+			"props": {
+				"children": [],
+				"name": "flexLayout6",
+				"parent": "44d0-3e2a-ee09-d368"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button #pgSearchFlights_form_action #pgSearchFlightDetails-actionbtn #pgTicket-action",
+			"id": "55d4-8ea9-e82d-4480",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "91e2-8338-b9c2-a27a",
+				"text": "PRINT"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "PRINT"
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_form_field",
+			"id": "9fca-8668-9532-beea",
+			"props": {
+				"children": [
+					"8342-03b1-e4b1-b98f",
+					"705c-d4fc-4b97-70c5"
+				],
+				"name": "flFormField",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 8,
+				"top": 298
+			}
+		},
+		{
+			"className": ".sf-label #pgSearchFlights_form_field_label",
+			"id": "8342-03b1-e4b1-b98f",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "9fca-8668-9532-beea",
+				"text": "Location"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Location"
+			}
+		},
+		{
+			"className": ".sf-button #pgSearchFlights_form_field_action",
+			"id": "705c-d4fc-4b97-70c5",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "9fca-8668-9532-beea",
+				"text": "  Montreal, Canada"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "  Montreal, Canada"
+			}
+		}
+	]
+}

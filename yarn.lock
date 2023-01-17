@@ -635,10 +635,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@smartface/builder@^0.10.8":
-  version "0.10.8"
-  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.10.8.tgz#4e6b6d6d0df09bab0b72172efb6f94ffa4eea23a"
-  integrity sha512-OS9emmAvsenPRasweENLpGx98FQmes1SdHTE5Msut8SOnWcautKqSC0WYMwAOAdP88c3TC8Ek5oF8Q6+ezJ/+w==
+"@smartface/builder@^0.10.10-alpa.0":
+  version "0.10.10-alpha.0"
+  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.10.10-alpha.0.tgz#ff8f3e7abf7620b45efa1e214552f096f3442fca"
+  integrity sha512-k/NzJrTb5+x2SmhZloyerKTjV8jOEk6w7en6QK5luGGJtU1m7PXXN8/diKva0FL+pNQXiv8dZwULL3aizT87sA==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/library-reader" "^0.8.4"
@@ -658,10 +658,10 @@
     recursive-readdir "^2.2.1"
     rmdir "^1.2.0"
 
-"@smartface/dispatcher@^0.10.8":
-  version "0.10.8"
-  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.10.8.tgz#377b7e3fce65be986831995a76dea2ab77db8c93"
-  integrity sha512-At6fxKMpoYZDV+6nU6KkP/d/58uD8e0HJe6o7aKzU0TCibbDd7Y9nGDNFNpmIptPAq3DpjX9aXmf1PoNvcK8sw==
+"@smartface/dispatcher@^0.10.10-alpa.0":
+  version "0.10.10-alpha.0"
+  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.10.10-alpha.0.tgz#6991757f883d223c7f3ef7058d2403c0e3bd4b4f"
+  integrity sha512-wLVhaRRAXcKQRlhlrsYYiv1BbHsgv5VCHPDtvFdeAWtlx8K4rwnA1/nBsPPJtOF8ajwIjZXd8QYcsRTqlqaVVQ==
   dependencies:
     "@smartface/nsfw-prebuild" "^2.2.2"
     cors "^2.8.5"

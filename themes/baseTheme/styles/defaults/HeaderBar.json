@@ -1,0 +1,9 @@
+{
+  ".sf": {
+    "&-headerBar": {
+      "ios": {},
+      "backgroundColor": "rgba( 252, 252, 254, 1 )",
+      "transparent": false
+    }
+  }
+}

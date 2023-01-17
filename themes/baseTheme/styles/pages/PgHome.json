@@ -1,0 +1,246 @@
+{
+  "#pgHome": {
+    "&_main": {
+      "backgroundColor": {
+        "startColor": "#FCFCFE",
+        "endColor": "#A3BFF3",
+        "direction": "VERTICAL"
+      },
+      "padding": 16,
+      "flexProps": {
+        "justifyContent": "SPACE_EVENLY",
+        "flexDirection": "COLUMN"
+      },
+      "paddingTop": 25
+    },
+    "&_header": {
+      "flexProps": {
+        "flexDirection": "ROW",
+        "justifyContent": "SPACE_AROUND",
+        "alignItems": "CENTER",
+        "alignContent": "STRETCH"
+      },
+      "&_image": {
+        "flexProps": {
+          "alignSelf": "CENTER"
+        },
+        "height": 36,
+        "width": 36,
+        "image": "__sf_gen_img_glyph10.png",
+        "borderRadius": 18,
+        "tintColor": "rgba( 255, 255, 255, 1 )",
+        "imageFillType": "ASPECTFIT",
+        "borderWidth": 2,
+        "borderColor": "rgba( 255, 255, 255, 1 )",
+        "&_not": {
+          "image": "__sf_gen_img_bell.png",
+          "borderWidth": 0,
+          "width": 20,
+          "height": 20,
+          "imageFillType": "ASPECTFIT",
+          "tintColor": "rgba( 0, 0, 0, 1 )"
+        }
+      },
+      "&_label": {
+        "flexProps": {
+          "flexGrow": 1
+        },
+        "textColor": "rgba( 0, 0, 0, 1 )",
+        "textAlignment": "MIDCENTER"
+      },
+      "height": 50,
+      "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "&_banner": {
+      "height": 200,
+      "width": null,
+      "&_img": {
+        "flexProps": {
+          "flexGrow": 1,
+          "alignSelf": "STRETCH"
+        },
+        "width": null,
+        "height": null,
+        "image": "home_plane_img.png",
+        "imageFillType": "STRETCH",
+        "borderRadius": 20,
+        "visible": true
+      },
+      "&_label": {
+        "flexProps": {
+          "positionType": "ABSOLUTE"
+        },
+        "bottom": 15,
+        "right": 0,
+        "left": 15,
+        "font": {
+          "name": "",
+          "family": "Prompt",
+          "style": "Bold",
+          "bold": true,
+          "italic": false,
+          "size": 30
+        },
+        "height": 70,
+        "lineSpacing": -4,
+        "textAlignment": "MIDLEFT",
+        "backgroundColor": "rgba( 255, 255, 255, 0 )"
+      },
+      "padding": null,
+      "margin": null
+    },
+    "&-label2": {
+      "left": 15,
+      "top": 115,
+      "node": null,
+      "x": 15,
+      "y": 115,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 15,
+      "lastY": 115
+    },
+    "&-textView1": {
+      "left": 14.93,
+      "top": 125.37,
+      "node": null,
+      "x": 14.93,
+      "y": 125.37,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 14.93,
+      "lastY": 125.37
+    },
+    "&-tvBanner": {
+      "left": 14.86,
+      "top": 114.86,
+      "node": null,
+      "x": 14.86,
+      "y": 114.86,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 14.86,
+      "lastY": 114.86
+    },
+    "&-lblBanner": {
+      "left": 14.93,
+      "top": 125.37,
+      "node": null,
+      "x": 14.93,
+      "y": 125.37,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 14.93,
+      "lastY": 125.37
+    },
+    "&_category": {
+      "height": 86,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "marginTop": 25,
+      "&_item": {
+        "width": 60,
+        "&_icon": {
+          "flexProps": {
+            "alignSelf": "CENTER"
+          },
+          "borderRadius": 25,
+          "backgroundColor": "rgba( 255, 255, 255, 1 )",
+          "font": {
+            "family": "entypo",
+            "style": null,
+            "italic": false,
+            "bold": false,
+            "size": 30
+          },
+          "glyph": "✈",
+          "textColor": "rgba( 25, 94, 199, 1 )",
+          "ios": {
+            "shadowOffset": {}
+          },
+          "height": 50
+        },
+        "&_title": {
+          "font": {
+            "name": "",
+            "family": "Prompt",
+            "style": "Regular",
+            "bold": false,
+            "italic": false,
+            "size": 13
+          },
+          "textColor": "rgba( 0, 0, 0, 1 )",
+          "height": 20,
+          "textAlignment": "MIDCENTER",
+          "marginTop": 4
+        }
+      },
+      "flexProps": {
+        "flexDirection": "ROW",
+        "justifyContent": "SPACE_BETWEEN"
+      },
+      "&_item2": {
+        "&_icon": {
+          "font": {
+            "family": "ionicons",
+            "italic": false,
+            "bold": false
+          },
+          "glyph": ""
+        }
+      },
+      "&_item3": {
+        "&_icon": {
+          "font": {
+            "family": "ionicons",
+            "italic": false,
+            "bold": false
+          },
+          "glyph": ""
+        }
+      },
+      "&_item4": {
+        "&_icon": {
+          "font": {
+            "family": "FontAwesome5FreeSolid",
+            "italic": false,
+            "bold": false
+          },
+          "glyph": ""
+        }
+      }
+    },
+    "&-flHeader": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-listlabel": {
+      "font": {
+        "name": "",
+        "family": "Prompt",
+        "style": "Bold",
+        "bold": true,
+        "italic": false
+      },
+      "textColor": "rgba( 0, 0, 0, 1 )",
+      "marginTop": 25
+    },
+    "&-grid": {
+      "marginTop": 16,
+      "height": 207,
+      "width": null
+    },
+    "&-cartItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    }
+  }
+}

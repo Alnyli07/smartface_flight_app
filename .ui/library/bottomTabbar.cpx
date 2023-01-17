@@ -1,0 +1,93 @@
+{
+	"components": [
+		{
+			"className": ".sf-bottomTabbar .bottomtabbar",
+			"hiddenComponent": false,
+			"id": "0647-1373-be3d-116c",
+			"props": {
+				"children": [
+					"88bb-19bc-9dfb-e94b",
+					"ed72-a159-9953-0c47",
+					"a323-efcc-dd96-3c49",
+					"e95e-5699-c03c-8c61",
+					"c8b0-8a26-0033-f5e0"
+				],
+				"name": "bottomTabbar",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "BottomTabbar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .tabbar_item1",
+			"hiddenComponent": false,
+			"id": "88bb-19bc-9dfb-e94b",
+			"oldName": "tabBarItem1",
+			"props": {
+				"children": [],
+				"name": "main",
+				"parent": "0647-1373-be3d-116c"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .tabbar_item2",
+			"hiddenComponent": false,
+			"id": "ed72-a159-9953-0c47",
+			"oldName": "tabBarItem1",
+			"props": {
+				"children": [],
+				"name": "boarding",
+				"parent": "0647-1373-be3d-116c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .tabbar_item3",
+			"hiddenComponent": false,
+			"id": "a323-efcc-dd96-3c49",
+			"oldName": "main_1",
+			"props": {
+				"children": [],
+				"name": "find",
+				"parent": "0647-1373-be3d-116c"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .tabbar_item4",
+			"hiddenComponent": false,
+			"id": "e95e-5699-c03c-8c61",
+			"oldName": "tabBarItem1",
+			"props": {
+				"children": [],
+				"name": "home",
+				"parent": "0647-1373-be3d-116c"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .tabbar_item5",
+			"hiddenComponent": false,
+			"id": "c8b0-8a26-0033-f5e0",
+			"oldName": "tabBarItem2",
+			"props": {
+				"children": [],
+				"name": "account",
+				"parent": "0647-1373-be3d-116c"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		}
+	]
+}

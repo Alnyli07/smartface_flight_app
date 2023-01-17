@@ -1,0 +1,102 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .flightItem",
+			"id": "493e-163c-dcd7-9ce9",
+			"props": {
+				"children": [
+					"275f-5429-981c-77e7"
+				],
+				"name": "flightItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"left": 29,
+				"top": 574
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flightItem-fl",
+			"id": "275f-5429-981c-77e7",
+			"props": {
+				"children": [
+					"9c35-4dc2-9c0b-903b",
+					"d0fb-6bc2-a3c8-9427",
+					"017f-8f7a-ea50-b68c",
+					"1d82-4681-7ae2-afe6"
+				],
+				"name": "flexLayout4",
+				"parent": "493e-163c-dcd7-9ce9"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgSearchFlightDetails-flSvg-icon .flightItem-plane",
+			"id": "9c35-4dc2-9c0b-903b",
+			"oldName": "ic",
+			"props": {
+				"children": [],
+				"name": "icPlane",
+				"parent": "275f-5429-981c-77e7"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flightItem-lbl",
+			"id": "d0fb-6bc2-a3c8-9427",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "275f-5429-981c-77e7",
+				"text": "18:55"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "18:55"
+			}
+		},
+		{
+			"className": ".sf-textView .flightItem-tv",
+			"id": "017f-8f7a-ea50-b68c",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<font style=\"font-size: 15px; background-color: transparent; text-decoration-color: rgb(0, 0, 0); font-family: Prompt-Bold; color: rgb(30, 64, 111);\">10:00 AM</font><div><font style=\"font-size: 15px; background-color: transparent; text-decoration-color: rgb(0, 0, 0); font-family: Prompt-Bold; color: rgba(0, 0, 0, 0.6);\">YUL</font></div><div><span style=\"background-color: transparent; color: rgb(30, 64, 111); font-family: Prompt-Bold; font-size: 15px;\">Air Canada</span></div>",
+				"name": "tv1",
+				"parent": "275f-5429-981c-77e7",
+				"text": "10:00 AM\nYUL\nAir Canada"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<font style=\"font-size: 15px; background-color: transparent; text-decoration-color: rgb(0, 0, 0); font-family: Prompt-Bold; color: rgb(30, 64, 111);\">10:00 AM</font><div><font style=\"font-size: 15px; background-color: transparent; text-decoration-color: rgb(0, 0, 0); font-family: Prompt-Bold; color: rgba(0, 0, 0, 0.6);\">YUL</font></div><div><span style=\"background-color: transparent; color: rgb(30, 64, 111); font-family: Prompt-Bold; font-size: 15px;\">Air Canada</span></div>",
+				"text": "10:00 AM\nYUL\nAir Canada"
+			}
+		},
+		{
+			"className": ".sf-textView .flightItem-tv .flightItem-tv2",
+			"id": "1d82-4681-7ae2-afe6",
+			"oldName": "tv1_1",
+			"props": {
+				"children": [],
+				"html": "<font style=\"font-size: 15px; background-color: transparent; text-decoration-color: rgb(0, 0, 0); font-family: Prompt-Bold; color: rgb(30, 64, 111);\">10:00 AM</font><div><font style=\"font-size: 15px; background-color: transparent; text-decoration-color: rgb(0, 0, 0); font-family: Prompt-Bold; color: rgba(0, 0, 0, 0.6);\">YUL</font></div><div><span style=\"color: rgb(30, 64, 111); font-family: Prompt-Bold; font-size: 15px; background-color: transparent;\">$ 1,400</span><br></div>",
+				"name": "tv2",
+				"parent": "275f-5429-981c-77e7",
+				"text": "10:00 AM\nYUL\n$ 1,400\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<font style=\"font-size: 15px; background-color: transparent; text-decoration-color: rgb(0, 0, 0); font-family: Prompt-Bold; color: rgb(30, 64, 111);\">10:00 AM</font><div><font style=\"font-size: 15px; background-color: transparent; text-decoration-color: rgb(0, 0, 0); font-family: Prompt-Bold; color: rgba(0, 0, 0, 0.6);\">YUL</font></div><div><span style=\"color: rgb(30, 64, 111); font-family: Prompt-Bold; font-size: 15px; background-color: transparent;\">$ 1,400</span><br></div>",
+				"text": "10:00 AM\nYUL\n$ 1,400\n"
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+    ".sf-label": {
+        "font": {
+            "size": 15,
+            "bold": false,
+            "italic": false,
+            "family": "Prompt",
+            "style": "Regular"
+        },
+        "textColor": "#1E406F"
+    }
+}

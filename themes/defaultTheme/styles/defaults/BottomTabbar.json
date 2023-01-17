@@ -1,5 +1,6 @@
 {
-    ".sf-bottomTabbar": {
+    ".sf":{ 
+    "&-bottomTabbar": {
         "masksToBounds": true,
         "height": 56,
         "width": null,
@@ -20,4 +21,5 @@
         },
         "iconSize": 24
     }
+}
 }

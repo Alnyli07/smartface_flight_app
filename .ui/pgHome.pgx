@@ -1,0 +1,404 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgHome_main",
+			"id": "91d3-01ec-90f3-21dc",
+			"initialized": true,
+			"props": {
+				"bottomTabbarEnabled": true,
+				"children": [
+					"0a5f-4d53-9343-75c5",
+					"0e11-2064-6f6e-0a29",
+					"4faa-9d52-6069-119b",
+					"1f5c-5686-f8c7-8a7e",
+					"6b4f-1276-e4b4-7251",
+					"7163-30a0-75a2-6eb7",
+					"fd3a-31a8-bca2-d6f9"
+				],
+				"name": "pgHome",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": false
+			},
+			"type": "Page",
+			"userProps": {
+				"bottomTabbarEnabled": true,
+				"safeAreaEnabled": false
+			},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "0a5f-4d53-9343-75c5",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "91d3-01ec-90f3-21dc"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "0e11-2064-6f6e-0a29",
+			"props": {
+				"children": [
+					"f31f-38ef-8f0b-deff"
+				],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "91d3-01ec-90f3-21dc",
+				"title": ""
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": ""
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome_header",
+			"hiddenComponent": false,
+			"id": "f31f-38ef-8f0b-deff",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flHeader",
+				"parent": "0e11-2064-6f6e-0a29"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flHeader",
+				"id": "8f44-fa56-da78-2bab"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-bottomTabbar #pgHome-bottomTabbar",
+			"hiddenComponent": false,
+			"id": "4faa-9d52-6069-119b",
+			"props": {
+				"children": [],
+				"name": "bottomTabbar",
+				"parent": "91d3-01ec-90f3-21dc"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "bottomTabbar",
+				"id": "0647-1373-be3d-116c"
+			},
+			"type": "BottomTabbar",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome_banner",
+			"id": "1f5c-5686-f8c7-8a7e",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ed07-423b-0549-55ab",
+					"168b-481b-8f98-4fdd"
+				],
+				"name": "flBanner",
+				"parent": "91d3-01ec-90f3-21dc"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgHome_banner_img",
+			"id": "ed07-423b-0549-55ab",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgBanner",
+				"parent": "1f5c-5686-f8c7-8a7e"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView #pgHome_banner_label #pgHome-tvBanner",
+			"id": "168b-481b-8f98-4fdd",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px;\">Let’s Discover</span></div><div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px;\">a New Country !</span></div>",
+				"name": "tvBanner",
+				"parent": "1f5c-5686-f8c7-8a7e",
+				"text": "Let’s Discover\na New Country !"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px;\">Let’s Discover</span></div><div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px;\">a New Country !</span></div>",
+				"text": "Let’s Discover\na New Country !"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome_category",
+			"id": "6b4f-1276-e4b4-7251",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0892-da37-7890-f880",
+					"624b-245a-6351-455c",
+					"1d03-e4fc-52da-0c91",
+					"971a-07a5-5cda-eb87"
+				],
+				"name": "flCategory",
+				"parent": "91d3-01ec-90f3-21dc"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome_category_item",
+			"id": "0892-da37-7890-f880",
+			"oldName": "flplane",
+			"props": {
+				"children": [
+					"daf8-771c-ab35-6140",
+					"cde0-4759-5f39-789a"
+				],
+				"name": "flPlane",
+				"parent": "6b4f-1276-e4b4-7251"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgHome_category_item_icon",
+			"id": "daf8-771c-ab35-6140",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "ic",
+				"parent": "0892-da37-7890-f880"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgHome_category_item_title",
+			"id": "cde0-4759-5f39-789a",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "0892-da37-7890-f880",
+				"text": "Flight"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Flight"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome_category_item",
+			"id": "624b-245a-6351-455c",
+			"oldName": "flItem_1",
+			"props": {
+				"children": [
+					"b544-2aa2-10b8-0a2e",
+					"da13-f98d-2f8c-820f"
+				],
+				"name": "flItem2",
+				"parent": "6b4f-1276-e4b4-7251"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgHome_category_item_icon #pgHome_category_item2_icon",
+			"id": "b544-2aa2-10b8-0a2e",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "ic_1",
+				"parent": "624b-245a-6351-455c"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgHome_category_item_title",
+			"id": "da13-f98d-2f8c-820f",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblTitle_1",
+				"parent": "624b-245a-6351-455c",
+				"text": "Train"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Train"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome_category_item #pgHome_category_item3_icon",
+			"id": "1d03-e4fc-52da-0c91",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"161d-a928-e491-757f",
+					"c2f4-7408-fb75-d46a"
+				],
+				"name": "flItem_1",
+				"parent": "6b4f-1276-e4b4-7251"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgHome_category_item_icon #pgHome_category_item3_icon",
+			"id": "161d-a928-e491-757f",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "ic_2",
+				"parent": "1d03-e4fc-52da-0c91"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgHome_category_item_title",
+			"id": "c2f4-7408-fb75-d46a",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblTitle_2",
+				"parent": "1d03-e4fc-52da-0c91",
+				"text": "Car"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Car"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgHome_category_item",
+			"id": "971a-07a5-5cda-eb87",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ab51-92ba-c980-9f3e",
+					"c0b7-3c23-9d4f-a983"
+				],
+				"name": "flItem_2",
+				"parent": "6b4f-1276-e4b4-7251"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgHome_category_item_icon #pgHome_category_item4_icon",
+			"id": "ab51-92ba-c980-9f3e",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"name": "ic_3",
+				"parent": "971a-07a5-5cda-eb87"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgHome_category_item_title",
+			"id": "c0b7-3c23-9d4f-a983",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblTitle_3",
+				"parent": "971a-07a5-5cda-eb87",
+				"text": "Hotel"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Hotel"
+			}
+		},
+		{
+			"className": ".sf-label #pgHome-listlabel",
+			"id": "7163-30a0-75a2-6eb7",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "91d3-01ec-90f3-21dc",
+				"text": "Explore Destination"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Explore Destination"
+			}
+		},
+		{
+			"className": ".sf-gridView #pgHome-grid",
+			"id": "fd3a-31a8-bca2-d6f9",
+			"oldName": "gridView1",
+			"props": {
+				"children": [
+					"3a26-59e1-69ea-a87d"
+				],
+				"itemCount": 5,
+				"itemLength": 168,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				},
+				"name": "grid",
+				"parent": "91d3-01ec-90f3-21dc"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 5,
+				"itemLength": 168,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				}
+			}
+		},
+		{
+			"className": ".sf-gridViewItem #pgHome-cartItem",
+			"hiddenComponent": false,
+			"id": "3a26-59e1-69ea-a87d",
+			"oldName": "gridViewItem1",
+			"props": {
+				"children": [],
+				"name": "cartItem",
+				"parent": "fd3a-31a8-bca2-d6f9"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "cartItem",
+				"id": "b4ba-3004-ccc7-0c8a"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

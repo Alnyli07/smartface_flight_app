@@ -1,0 +1,287 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgSearchFlightDetails-page",
+			"id": "e804-5bd2-b3d6-fc48",
+			"initialized": true,
+			"props": {
+				"children": [
+					"b493-9c75-5ac0-eb0f",
+					"936f-39e0-62c6-8989",
+					"0ca1-ac59-f9d6-a35c",
+					"5666-f9af-a084-c500",
+					"72cc-8f28-fd82-2fc8"
+				],
+				"name": "pgSearchFligthDetails",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "b493-9c75-5ac0-eb0f",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e804-5bd2-b3d6-fc48"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #pgSearchFlights-header",
+			"id": "936f-39e0-62c6-8989",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e804-5bd2-b3d6-fc48",
+				"title": "Select Your Flight"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Select Your Flight"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-flSvg",
+			"id": "0ca1-ac59-f9d6-a35c",
+			"props": {
+				"children": [
+					"20c6-7d84-3f48-07e3",
+					"c5fd-6aa6-1bd4-0767",
+					"94a3-2c97-d570-c8c1"
+				],
+				"name": "flexLayout2",
+				"parent": "e804-5bd2-b3d6-fc48"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSearchFlightDetails-flSvg-lbl #pgSearchFligthDetails-lblDeparture",
+			"id": "20c6-7d84-3f48-07e3",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblDeparture",
+				"parent": "0ca1-ac59-f9d6-a35c",
+				"text": "YUL"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "YUL"
+			}
+		},
+		{
+			"className": ".sf-label #pgSearchFlightDetails-flSvg-lbl #pgSearchFlightDetails-flSvg-lbl2",
+			"id": "c5fd-6aa6-1bd4-0767",
+			"oldName": "label1_1",
+			"props": {
+				"children": [],
+				"name": "lblDestination",
+				"parent": "0ca1-ac59-f9d6-a35c",
+				"text": "NR"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "NR"
+			}
+		},
+		{
+			"className": ".sf-icon #pgSearchFlightDetails-flSvg-icon",
+			"id": "94a3-2c97-d570-c8c1",
+			"oldName": "ic",
+			"props": {
+				"children": [],
+				"name": "icPlane",
+				"parent": "0ca1-ac59-f9d6-a35c"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-line",
+			"id": "5666-f9af-a084-c500",
+			"props": {
+				"children": [],
+				"name": "flexLayout3",
+				"parent": "e804-5bd2-b3d6-fc48"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-list",
+			"id": "72cc-8f28-fd82-2fc8",
+			"props": {
+				"children": [
+					"2d89-cac6-6796-c769",
+					"1995-1194-a4df-800c",
+					"dbfa-241c-0f42-7680"
+				],
+				"name": "flexLayout1",
+				"parent": "e804-5bd2-b3d6-fc48"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-flInfoWrapper",
+			"id": "2d89-cac6-6796-c769",
+			"oldName": "flexLayout4",
+			"props": {
+				"children": [
+					"edcc-f100-13f3-9303",
+					"4cfd-76d7-c474-9c58"
+				],
+				"name": "flInfoWrapper",
+				"parent": "72cc-8f28-fd82-2fc8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-flInfo",
+			"id": "edcc-f100-13f3-9303",
+			"oldName": "flexLayout4",
+			"props": {
+				"children": [
+					"39f8-75ef-a247-4c92",
+					"6fcf-3a04-1308-310d"
+				],
+				"name": "flInfo",
+				"parent": "2d89-cac6-6796-c769"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgSearchFlightDetails-flInfo-ic",
+			"id": "39f8-75ef-a247-4c92",
+			"props": {
+				"children": [],
+				"name": "icon1",
+				"parent": "edcc-f100-13f3-9303"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSearchFlightDetails-flInfo-label",
+			"id": "6fcf-3a04-1308-310d",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "edcc-f100-13f3-9303",
+				"text": "Dec 16th 2022"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Dec 16th 2022"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-flInfo",
+			"id": "4cfd-76d7-c474-9c58",
+			"oldName": "flexLayout4",
+			"props": {
+				"children": [
+					"82de-e280-f419-b114",
+					"9bb9-5b55-767a-f25c"
+				],
+				"name": "flInfo_1",
+				"parent": "2d89-cac6-6796-c769"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgSearchFlightDetails-flInfo-ic #pgSearchFlightDetails-flInfo-ic2",
+			"id": "82de-e280-f419-b114",
+			"props": {
+				"children": [],
+				"name": "icon1_1",
+				"parent": "4cfd-76d7-c474-9c58"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSearchFlightDetails-flInfo-label",
+			"id": "9bb9-5b55-767a-f25c",
+			"props": {
+				"children": [],
+				"name": "label1_1",
+				"parent": "4cfd-76d7-c474-9c58",
+				"text": "1 passenger"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "1 passenger"
+			}
+		},
+		{
+			"className": ".sf-button #pgSearchFlights_form_action #pgSearchFlightDetails-actionbtn",
+			"id": "1995-1194-a4df-800c",
+			"oldName": "button1",
+			"props": {
+				"children": [],
+				"name": "btnAction",
+				"parent": "72cc-8f28-fd82-2fc8",
+				"text": "Economy"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Economy"
+			}
+		},
+		{
+			"className": ".sf-listView #pgSearchFlightDetails-listview",
+			"id": "dbfa-241c-0f42-7680",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"44df-bba3-196b-0b8b"
+				],
+				"itemCount": 5,
+				"name": "lvMain",
+				"parent": "72cc-8f28-fd82-2fc8",
+				"rowHeight": 152
+			},
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 5,
+				"rowHeight": 152
+			}
+		},
+		{
+			"className": ".sf-listViewItem .flightItem #pgSearchFligthDetails-flightItem",
+			"hiddenComponent": false,
+			"id": "44df-bba3-196b-0b8b",
+			"props": {
+				"children": [],
+				"name": "flightItem",
+				"parent": "dbfa-241c-0f42-7680"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flightItem",
+				"id": "493e-163c-dcd7-9ce9"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

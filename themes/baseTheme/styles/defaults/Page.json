@@ -1,0 +1,12 @@
+{
+    ".sf": {
+        "&-page": {
+            "padding": 8,
+            "backgroundColor": {
+                "startColor": "#FCFCFE",
+                "endColor": "#A3BFF2",
+                "direction": "VERTICAL"
+            }
+        }
+    }
+}

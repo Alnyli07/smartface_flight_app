@@ -1,0 +1,40 @@
+{
+  "#pgTicket": {
+    "&-flwrapper": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "marginTop": 130,
+      "marginLeft": 34,
+      "marginRight": 34,
+      "marginBottom": 32
+    },
+    "&-flshadow": {
+      "height": 10,
+      "borderRadius": 10,
+      "backgroundColor": "rgba( 192, 205, 231, 1 )",
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "left": 0,
+      "right": 0
+    },
+    "&-flcard": {
+      "marginLeft": 20,
+      "marginRight": 20,
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 0.6 )",
+      "borderRadius": 8
+    },
+    "&-action": {
+      "marginBottom": 44,
+      "marginTop": 11,
+      "width": 83,
+      "flexProps": {
+        "alignSelf": "CENTER"
+      }
+    }
+  }
+}

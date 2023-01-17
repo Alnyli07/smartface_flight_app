@@ -1,0 +1,369 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgSearchFlights_main",
+			"id": "ae46-c44b-b133-5535",
+			"initialized": true,
+			"props": {
+				"children": [
+					"059e-4483-afdb-c17b",
+					"e626-1128-d27e-40b7",
+					"e41f-19c0-9e04-24c8",
+					"3090-eced-d98c-e2ed",
+					"e98d-b4bb-5bc7-38c4"
+				],
+				"name": "pgSearchFlights",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "059e-4483-afdb-c17b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "ae46-c44b-b133-5535"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #pgSearchFlights-header",
+			"id": "e626-1128-d27e-40b7",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "ae46-c44b-b133-5535",
+				"title": "Book Your Flight"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Book Your Flight"
+			}
+		},
+		{
+			"className": ".sf-imageView #pgSearchFlights_plane",
+			"id": "e41f-19c0-9e04-24c8",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "ae46-c44b-b133-5535"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_category",
+			"id": "3090-eced-d98c-e2ed",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"e248-c508-54c3-e0b9",
+					"8fdc-f5e8-b715-f32f",
+					"e4ce-b89e-1587-1ea4"
+				],
+				"name": "flCAt",
+				"parent": "ae46-c44b-b133-5535"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_category_item #pgSearchFlights_category_item.selected #pgSearchFlights_category_item_1",
+			"id": "e248-c508-54c3-e0b9",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"f5cf-68b4-d501-39af",
+					"052a-1153-763d-5b6a"
+				],
+				"name": "flItem",
+				"parent": "3090-eced-d98c-e2ed"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgSearchFlights_category_item_icon",
+			"id": "f5cf-68b4-d501-39af",
+			"props": {
+				"children": [],
+				"name": "icon1",
+				"parent": "e248-c508-54c3-e0b9"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSearchFlights_category_item_text",
+			"id": "052a-1153-763d-5b6a",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lbl",
+				"parent": "e248-c508-54c3-e0b9",
+				"text": "Round Trip"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Round Trip"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_category_item",
+			"id": "8fdc-f5e8-b715-f32f",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"deca-31b7-45e3-f395",
+					"5872-aba5-7d3d-bb28"
+				],
+				"name": "flItem_1",
+				"parent": "3090-eced-d98c-e2ed"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgSearchFlights_category_item_icon #pgSearchFlights_category_item2_icon",
+			"id": "deca-31b7-45e3-f395",
+			"props": {
+				"children": [],
+				"name": "icon1_1",
+				"parent": "8fdc-f5e8-b715-f32f"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSearchFlights_category_item_text",
+			"id": "5872-aba5-7d3d-bb28",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lbl_1",
+				"parent": "8fdc-f5e8-b715-f32f",
+				"text": "Multi City "
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Multi City "
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_category_item",
+			"id": "e4ce-b89e-1587-1ea4",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"27cc-5216-663d-a129",
+					"5841-640c-4b5a-7ae1"
+				],
+				"name": "flItem_2",
+				"parent": "3090-eced-d98c-e2ed"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #pgSearchFlights_category_item_icon #pgSearchFlights_category_item_icon_3",
+			"id": "27cc-5216-663d-a129",
+			"props": {
+				"children": [],
+				"name": "icon1_2",
+				"parent": "e4ce-b89e-1587-1ea4"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgSearchFlights_category_item_text",
+			"id": "5841-640c-4b5a-7ae1",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lbl_2",
+				"parent": "e4ce-b89e-1587-1ea4",
+				"text": "One Way"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "One Way"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_form",
+			"id": "e98d-b4bb-5bc7-38c4",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"7095-92aa-ecab-1e47",
+					"a762-7846-84f5-a34e",
+					"e634-13a4-e26d-fbb4",
+					"0ab0-243c-9c13-afb3",
+					"3de3-af4f-d8c7-ab1a"
+				],
+				"name": "flForm",
+				"parent": "ae46-c44b-b133-5535"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_form_field #pgSearchFlights-flFormField",
+			"hiddenComponent": false,
+			"id": "7095-92aa-ecab-1e47",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [],
+				"name": "flFormField",
+				"parent": "e98d-b4bb-5bc7-38c4"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flFormField",
+				"id": "9fca-8668-9532-beea"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_form_field #pgSearchFlights-flFormField1",
+			"hiddenComponent": false,
+			"id": "a762-7846-84f5-a34e",
+			"props": {
+				"children": [],
+				"name": "flFormField1",
+				"parent": "e98d-b4bb-5bc7-38c4"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flFormField",
+				"id": "9fca-8668-9532-beea"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_form_subitem",
+			"id": "e634-13a4-e26d-fbb4",
+			"props": {
+				"children": [
+					"6e82-6a97-45d7-ca37",
+					"799a-44f3-6df6-151d"
+				],
+				"name": "flexLayout2",
+				"parent": "e98d-b4bb-5bc7-38c4"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_form_field #pgSearchFlights-flFormField2",
+			"hiddenComponent": false,
+			"id": "6e82-6a97-45d7-ca37",
+			"props": {
+				"children": [],
+				"name": "flFormField2",
+				"parent": "e634-13a4-e26d-fbb4"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flFormField",
+				"id": "9fca-8668-9532-beea"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_form_field #pgSearchFlights-flFormField3",
+			"hiddenComponent": false,
+			"id": "799a-44f3-6df6-151d",
+			"props": {
+				"children": [],
+				"name": "flFormField3",
+				"parent": "e634-13a4-e26d-fbb4"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flFormField",
+				"id": "9fca-8668-9532-beea"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlights_form_field #pgSearchFlights-flFormField4",
+			"hiddenComponent": false,
+			"id": "0ab0-243c-9c13-afb3",
+			"props": {
+				"children": [],
+				"name": "flFormField4",
+				"parent": "e98d-b4bb-5bc7-38c4"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flFormField",
+				"id": "9fca-8668-9532-beea"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-button #pgSearchFlights_form_action #pgSearchFlights-button2",
+			"id": "3de3-af4f-d8c7-ab1a",
+			"oldName": "button2",
+			"props": {
+				"children": [],
+				"name": "btnSearch",
+				"parent": "e98d-b4bb-5bc7-38c4",
+				"text": "SEARCH FLIGHTS"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "SEARCH FLIGHTS"
+			}
+		}
+	]
+}

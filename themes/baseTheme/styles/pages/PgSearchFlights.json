@@ -1,0 +1,253 @@
+{
+  "#pgSearchFlights": {
+    "&_main": {
+      "padding": 13,
+      "backgroundColor": {
+        "startColor": "#FCFCFE",
+        "endColor": "#A3BFF3",
+        "direction": "VERTICAL"
+      }
+    },
+    "&_plane": {
+      "height": 153,
+      "image": "plane.png",
+      "imageFillType": "ASPECTFIT",
+      "marginTop": 64,
+      "shadowColor": "rgba( 0, 0, 0, 1 )",
+      "ios": {
+        "shadowOpacity": 0.74,
+        "shadowOffset": {
+          "x": -1,
+          "y": 18
+        },
+        "shadowRadius": 17
+      }
+    },
+    "&_category": {
+      "height": 44,
+      "marginTop": 27,
+      "marginBottom": 27,
+      "flexProps": {
+        "flexDirection": "ROW",
+        "justifyContent": "SPACE_BETWEEN"
+      },
+      "&_item": {
+        "height": null,
+        "flexProps": {
+          "flexGrow": 1,
+          "flexDirection": "ROW",
+          "justifyContent": "FLEX_START",
+          "alignContent": "STRETCH",
+          "alignItems": "CENTER"
+        },
+        "&_icon": {
+          "height": 30,
+          "width": 30,
+          "font": {
+            "family": "simple-line-icons",
+            "style": null,
+            "italic": false,
+            "bold": false,
+            "size": 20
+          },
+          "glyph": "",
+          "textColor": "rgba( 255, 255, 255, 1 )",
+          "backgroundColor": {
+            "startColor": "#81C6ED",
+            "endColor": "#326AD2",
+            "direction": "VERTICAL"
+          },
+          "borderRadius": 17,
+          "marginLeft": 5,
+          "&_3": {
+            "font": {
+              "family": "Prompt",
+              "style": "Regular",
+              "italic": false,
+              "bold": false
+            },
+            "glyph": "→"
+          }
+        },
+        "textColor": "rgba( 255, 255, 255, 1 )",
+        "font": {
+          "name": "",
+          "family": "",
+          "style": "",
+          "size": 7
+        },
+        ".selected": {
+          "backgroundColor": "rgba( 115, 188, 255, 0.6 )"
+        },
+        "&_text": {
+          "flexProps": {
+            "flexGrow": 1
+          },
+          "font": {
+            "name": "",
+            "family": "Prompt",
+            "style": "Regular",
+            "bold": false,
+            "italic": false,
+            "size": 13
+          },
+          "textColor": "rgba( 0, 0, 0, 0.6 )",
+          "marginLeft": 5
+        },
+        "&_1": {},
+        "backgroundColor": "rgba( 255, 255, 255, 1 )",
+        "borderRadius": 20
+      },
+      "&_item2": {
+        "&_icon": {
+          "font": {
+            "family": "MaterialIcons",
+            "style": "Regular",
+            "italic": false,
+            "bold": false
+          },
+          "glyph": ""
+        }
+      }
+    },
+    "&_form": {
+      "height": 406,
+      "borderRadius": 20,
+      "backgroundColor": "rgba( 255, 255, 255, 0.6 )",
+      "&_field": {
+        "height": 62,
+        "&_label": {
+          "height": 20,
+          "font": {
+            "family": "Prompt",
+            "style": "Bold",
+            "bold": true,
+            "italic": false,
+            "size": 13
+          },
+          "textColor": "rgba( 30, 64, 111, 1 )"
+        },
+        "&_action": {
+          "height": 38,
+          "borderRadius": 20,
+          "backgroundColor": {
+            "normal": "rgba( 204, 222, 235, 1 )",
+            "pressed": "rgba( 140, 181, 210, 1 )"
+          },
+          "textColor": "rgba( 0, 0, 0, 0.6 )",
+          "font": {
+            "family": "Prompt",
+            "style": "Regular",
+            "bold": false,
+            "italic": false,
+            "size": 15
+          },
+          "textAlignment": "MIDLEFT",
+          "borderWidth": 1,
+          "borderColor": "rgba( 183, 199, 211, 1 )"
+        },
+        "flexProps": {}
+      },
+      "padding": 16,
+      "paddingBottom": 24,
+      "paddingTop": 24,
+      "&_subitem": {
+        "height": 62,
+        "marginTop": 16,
+        "flexProps": {
+          "flexDirection": "ROW",
+          "justifyContent": "SPACE_BETWEEN",
+          "flexWrap": "NOWRAP",
+          "alignContent": "STRETCH"
+        }
+      },
+      "&_action": {
+        "height": 38,
+        "borderRadius": 20,
+        "backgroundColor": {
+          "normal": {
+            "startColor": "rgba( 129, 198, 237, 1  )",
+            "endColor": "rgba( 52, 106, 210, 1  )",
+            "direction": "HORIZONTAL"
+          }
+        },
+        "left": 95,
+        "right": 95,
+        "flexProps": {
+          "positionType": "ABSOLUTE"
+        },
+        "bottom": 24,
+        "font": {
+          "size": 15,
+          "family": "Prompt",
+          "style": "Regular",
+          "bold": false,
+          "italic": false
+        }
+      }
+    },
+    "&-flFormField": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      },
+      "marginBottom": 16
+    },
+    "&-flFormField1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-flFormField2": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexGrow": 1
+      },
+      "flex": {
+        "positionType": 0
+      },
+      "marginRight": 16
+    },
+    "&-flFormField3": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexGrow": 1
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-flFormField4": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      },
+      "marginTop": 16
+    },
+    "&-button2": {
+      "left": 94.59,
+      "top": 344.59,
+      "node": null,
+      "x": 94.59,
+      "y": 344.59,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 94.59,
+      "lastY": 344.59
+    },
+    "&-header": {
+      "transparent": true,
+      "titleColor": "rgba( 0, 0, 0, 1 )",
+      "visible": true,
+      "borderVisibility": false,
+      "itemColor": "rgba( 255, 255, 255, 1 )"
+    }
+  }
+}

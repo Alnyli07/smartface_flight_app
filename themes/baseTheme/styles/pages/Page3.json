@@ -7,6 +7,17 @@
     },
     "flexProps": {
       "justifyContent": "FLEX_END"
+    },
+    "&-flayout": {
+      "backgroundColor": {
+        "startColor": "rgba( 0, 0, 0, 1 )",
+        "endColor": "#ffffff",
+        "direction": "VERTICAL"
+      }
+    },
+    "&-flexLayout1": {
+      "width": 396.08,
+      "height": 378.43
     }
   }
 }

@@ -1,0 +1,69 @@
+{
+  ".flightItem": {
+    "width": 375,
+    "height": 133,
+    "&-plane": {
+      "height": 18,
+      "width": 18,
+      "font": {
+        "size": 14
+      },
+      "margin": 0,
+      "marginTop": 6,
+      "shadowColor": "rgba( 255, 255, 255, 1 )",
+      "ios": {
+        "shadowOffset": {
+          "y": 0,
+          "x": 0
+        },
+        "shadowRadius": 0
+      }
+    },
+    "&-lbl": {
+      "height": 20,
+      "width": 44,
+      "flexProps": {
+        "alignSelf": "CENTER"
+      },
+      "font": {
+        "size": 13
+      },
+      "textAlignment": "MIDCENTER"
+    },
+    "&-tv": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "height": null,
+      "width": 150,
+      "textAlignment": "TOPLEFT",
+      "left": 24,
+      "top": 16,
+      "bottom": 16,
+      "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "&-tv2": {
+      "textAlignment": "TOPRIGHT",
+      "node": null,
+      "x": 169,
+      "y": 16,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 169,
+      "lastY": 16,
+      "right": 24,
+      "height": null,
+      "top": 16,
+      "left": null
+    },
+    "&-fl": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "borderRadius": 8,
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "margin": 16
+    },
+    "flexProps": {}
+  }
+}

@@ -8,7 +8,6 @@
     "paddingLeft": 16,
     "paddingRight": 16,
     "&-lbl": {
-      "backgroundColor": "rgba( 255, 255, 255, 0 )",
       "flexProps": {
         "marginLeft": 20,
         "marginRight": 20,
@@ -23,14 +22,47 @@
       },
       "multiline": true,
       "textAlignment": "MIDCENTER",
-      "textColor": "${mainTextColor}"
+      "textColor": "${mainTextColor}",
+      "ios": {
+        "shadowOffset": {
+          "x": 2,
+          "y": 2
+        },
+        "shadowRadius": 20,
+        "shadowOpacity": 1
+      },
+      "shadowColor": "rgba( 144, 19, 254, 1 )",
+      "android": {
+        "elevation": 5
+      }
     },
     "&-btnNext": {
       "flexProps": {
         "alignSelf": "AUTO",
         "positionType": "RELATIVE"
       },
-      "width": null
+      "width": null,
+      "backgroundColor": {
+        "normal": {
+          "startColor": "rgba( 236, 13, 41, 1 )",
+          "endColor": "rgba( 255, 255, 255, 1 )",
+          "direction": "VERTICAL"
+        },
+        "pressed": {
+          "startColor": "rgba( 126, 211, 33, 1  )",
+          "endColor": "rgba( 189, 16, 224, 1  )",
+          "direction": "VERTICAL"
+        }
+      },
+      "ios": {
+        "shadowOffset": {
+          "x": 20,
+          "y": 20
+        },
+        "shadowOpacity": 0.63,
+        "shadowRadius": 20
+      },
+      "shadowColor": "rgba( 214, 199, 22, 1 )"
     },
     "&-wrapper": {
       "flexProps": {
@@ -38,7 +70,60 @@
         "justifyContent": "CENTER"
       },
       "height": null,
-      "width": null
+      "width": 23
+    },
+    "&-flWrapper": {
+      "width": 403.26,
+      "height": 639.13,
+      "borderColor": "rgba( 148, 33, 33, 1 )"
+    },
+    "&-textBox1": {
+      "borderWidth": 5,
+      "borderColor": "rgba( 168, 42, 42, 1 )",
+      "textColor": "${mainColor}",
+      "backgroundColor": {
+        "startColor": "rgba( 90, 90, 126, 1  )",
+        "endColor": "#ffffff",
+        "direction": "VERTICAL"
+      },
+      "shadowColor": "rgba( 197, 35, 35, 1 )",
+      "ios": {
+        "shadowOffset": {
+          "x": 20,
+          "y": 20
+        },
+        "shadowRadius": 20,
+        "shadowOpacity": 0.53
+      },
+      "width": 356,
+      "height": 52
+    },
+    "&-testfl": {
+      "backgroundColor": {
+        "startColor": "rgba( 226, 226, 23, 0.45 )",
+        "endColor": "rgba( 189, 16, 224, 1     )",
+        "direction": "VERTICAL"
+      }
+    },
+    "&-tsetslider": {
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      }
+    },
+    "&-testimg": {
+      "flexProps": {
+        "flexGrow": 1.2
+      },
+      "image": "__sf_gen_img_home.png"
+    },
+    "&-textView1": {
+      "width": 396,
+      "height": 256,
+      "lineSpacing": -3,
+      "letterSpacing": 0,
+      "font": {
+        "size": 12
+      }
     }
   }
 }

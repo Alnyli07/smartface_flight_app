@@ -1,0 +1,11 @@
+{
+  ".bottomtabbar": {
+    "backgroundColor": "rgba( 57, 70, 115, 1 )",
+    "itemColor": {
+      "normal": "rgba( 255, 255, 255, 1 )"
+    }
+  },
+  ".sf": {
+    "&-bottomTabbar": {}
+  }
+}

@@ -1,0 +1,192 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #page1",
+			"id": "4426-6ad9-cd4f-4435",
+			"initialized": false,
+			"props": {
+				"children": [
+					"3418-414b-dccd-8b47",
+					"998f-5898-5e2a-68fb",
+					"fabd-ee07-b6a6-820e",
+					"ad24-bc01-9031-8080",
+					"3539-d036-9c1f-5a82",
+					"b2b5-12ac-8e00-2cb2",
+					"7d23-8325-1348-38f1"
+				],
+				"isRemovable": true,
+				"name": "page12",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"orientation": "PORTRAIT",
+				"safeAreaEnabled": true
+			},
+			"version": "6.15.1",
+			"degree": 0
+		},
+		{
+			"className": ".sf-statusBar .test_statusbar",
+			"id": "3418-414b-dccd-8b47",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "4426-6ad9-cd4f-4435"
+			},
+			"type": "StatusBar",
+			"userProps": {},
+			"degree": 1
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "998f-5898-5e2a-68fb",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "4426-6ad9-cd4f-4435",
+				"title": "Page1"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Page1"
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-flexLayout #page1-testfl",
+			"id": "fabd-ee07-b6a6-820e",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"c262-54fa-8020-b83a",
+					"38f5-ecae-778d-92ff",
+					"fc11-47e5-5dc0-44de"
+				],
+				"name": "flWrapper",
+				"parent": "4426-6ad9-cd4f-4435"
+			},
+			"type": "FlexLayout",
+			"userProps": {},
+			"degree": 1
+		},
+		{
+			"className": ".sf-button #page1-btnNext",
+			"id": "ad24-bc01-9031-8080",
+			"props": {
+				"autoHeight": 50.561797752808985,
+				"children": [],
+				"name": "btnNext",
+				"parent": "4426-6ad9-cd4f-4435",
+				"text": "Next Page",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 50.561797752808985,
+				"testId": "93f6-Tngc",
+				"text": "Next Page",
+				"usePageVariable": true
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-switch",
+			"id": "3539-d036-9c1f-5a82",
+			"props": {
+				"children": [],
+				"name": "switch1",
+				"parent": "4426-6ad9-cd4f-4435",
+				"toggle": false
+			},
+			"type": "Switch",
+			"userProps": {
+				"toggle": false
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-textView #page1-textView1",
+			"id": "b2b5-12ac-8e00-2cb2",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-size: 12px; white-space: pre-wrap; background-color: transparent; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0); font-family: ios-Default-Regular;\"><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">Lorem ipsum </span><span style=\"background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); font-family: SFProText-Regular; text-decoration-line: underline; text-decoration-color: rgb(198, 18, 18);\">dolor</span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\"> sit amet, consectetur \n  a<span style=\"font-size: 12px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">dip</span>iscing <span style=\"font-size: 12px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">elit.</span> </span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); font-size: 12px; text-decoration-color: rgb(0, 0, 0);\"><span style=\"text-decoration-line: underline line-through; font-size: 12px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); text-decoration-color: rgba(126, 211, 33, 0.53);\">Donec</span> quis <span style=\"font-size: 12px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); text-decoration-color: rgb(0, 0, 0);\">semper</span> justo. In  \n  ultrices </span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgba(189, 16, 224, 0.39); text-decoration-color: rgb(0, 0, 0);\">metus</span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); font-size: 12px; text-decoration-color: rgb(0, 0, 0);\"> nec sodales consectetur.</span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\"> \n  Aliquam erat volutpat. </span><span style=\"font-family: SFProText-Regular; font-size: 12px; text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline; background-color: rgba(74, 74, 74, 0.4); color: rgb(0, 0, 0);\">Suspendisse</span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\"> potenti.</span></span><br>",
+				"name": "textView1",
+				"parent": "4426-6ad9-cd4f-4435",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti.\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-size: 12px; white-space: pre-wrap; background-color: transparent; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0); font-family: ios-Default-Regular;\"><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">Lorem ipsum </span><span style=\"background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); font-family: SFProText-Regular; text-decoration-line: underline; text-decoration-color: rgb(198, 18, 18);\">dolor</span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\"> sit amet, consectetur \n  a<span style=\"font-size: 12px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">dip</span>iscing <span style=\"font-size: 12px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">elit.</span> </span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); font-size: 12px; text-decoration-color: rgb(0, 0, 0);\"><span style=\"text-decoration-line: underline line-through; font-size: 12px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); text-decoration-color: rgba(126, 211, 33, 0.53);\">Donec</span> quis <span style=\"font-size: 12px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); text-decoration-color: rgb(0, 0, 0);\">semper</span> justo. In  \n  ultrices </span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgba(189, 16, 224, 0.39); text-decoration-color: rgb(0, 0, 0);\">metus</span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); font-size: 12px; text-decoration-color: rgb(0, 0, 0);\"> nec sodales consectetur.</span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\"> \n  Aliquam erat volutpat. </span><span style=\"font-family: SFProText-Regular; font-size: 12px; text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline; background-color: rgba(74, 74, 74, 0.4); color: rgb(0, 0, 0);\">Suspendisse</span><span style=\"font-family: SFProText-Regular; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\"> potenti.</span></span><br>",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec quis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti.\n"
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-imageView #page1-testimg",
+			"id": "7d23-8325-1348-38f1",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "4426-6ad9-cd4f-4435"
+			},
+			"type": "ImageView",
+			"userProps": {},
+			"degree": 1
+		},
+		{
+			"className": ".sf-label #page1-lbl",
+			"id": "c262-54fa-8020-b83a",
+			"props": {
+				"autoHeight": 39.325842696629216,
+				"children": [],
+				"name": "lbl_1_1",
+				"parent": "fabd-ee07-b6a6-820e",
+				"text": "Page11223",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 39.325842696629216,
+				"testId": "_tdYNDkDX",
+				"text": "Page11223",
+				"usePageVariable": true
+			},
+			"degree": 2
+		},
+		{
+			"className": ".sf-textBox .test_tvbox #page1-textBox1",
+			"id": "38f5-ecae-778d-92ff",
+			"oldName": "textBox1",
+			"props": {
+				"children": [],
+				"hint": "a",
+				"name": "textBox2",
+				"parent": "fabd-ee07-b6a6-820e",
+				"text": "-"
+			},
+			"type": "TextBox",
+			"userProps": {
+				"hint": "a",
+				"text": "-"
+			},
+			"degree": 2
+		},
+		{
+			"className": ".sf-slider #page1-tsetslider",
+			"id": "fc11-47e5-5dc0-44de",
+			"props": {
+				"children": [],
+				"name": "slider1",
+				"parent": "fabd-ee07-b6a6-820e"
+			},
+			"type": "Slider",
+			"userProps": {},
+			"degree": 2
+		}
+	]
+}
