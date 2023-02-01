@@ -18,8 +18,8 @@
 			},
 			"type": "FlexLayout",
 			"userProps": {
-				"left": 0,
-				"top": 437.31
+				"left": 5.41,
+				"top": 332.43
 			}
 		},
 		{
@@ -43,11 +43,11 @@
 				"children": [],
 				"name": "label1",
 				"parent": "8f44-fa56-da78-2bab",
-				"text": "Hi, Michelle"
+				"text": "Hi, Michelle 1"
 			},
 			"type": "Label",
 			"userProps": {
-				"text": "Hi, Michelle"
+				"text": "Hi, Michelle 1"
 			}
 		},
 		{

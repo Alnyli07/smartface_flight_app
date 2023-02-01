@@ -173,6 +173,11 @@
         "direction": "VERTICAL"
       },
       "flexProps": {}
+    },
+    "&-label": {
+      "flexProps": {
+        "flexGrow": 1
+      }
     }
   },
   "#pgSearchFlightDetails": {
@@ -247,7 +252,10 @@
     },
     "&-line": {
       "height": 1,
-      "backgroundColor": "rgba( 255, 255, 255, 1 )"
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "left": -16,
+      "right": -16,
+      "width": 9999
     },
     "&-flInfoWrapper": {
       "height": 84,
@@ -325,14 +333,15 @@
       "flexProps": {
         "positionType": "RELATIVE"
       },
-      "left": null,
-      "right": null,
       "bottom": null,
       "top": null,
       "height": 44,
       "font": {
         "style": "Bold"
       },
+      "width": null,
+      "left": null,
+      "right": null,
       "marginLeft": 20,
       "marginRight": 20
     },
@@ -345,6 +354,28 @@
       "height": null,
       "width": null,
       "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    }
+  },
+  ".testclass": {
+    "backgroundColor": "rgba( 80, 227, 194, 1 )"
+  },
+  ".mywebview": {
+    "backgroundColor": "rgba( 248, 231, 28, 1 )"
+  },
+  ".mygifView": {
+    "gifImage": "a2.gif"
+  },
+  ".my": {
+    "&-button": {
+      "height": 25
+    }
+  },
+  ".mybutton2": {
+    "height": 45
+  },
+  ".myclass": {
+    "backgroundColor": {
+      "normal": "rgba( 139, 87, 42, 1 )"
     }
   }
 }

@@ -44,10 +44,10 @@
   dependencies:
     "@smartface/core" "^5.0.8"
 
-"@smartface/native@5.0.7-alpha.17":
-  version "5.0.7-alpha.17"
-  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.7-alpha.17.tgz#3c3769a9a680dc8d5b866211102255d88e0d7163"
-  integrity sha512-HPr4DbRBosD9IwiB85XVowBPsqYjGKACPo5EjNuwqTMGHnuWdEerifPAEqAitlUuZX5jtafMidnmuUZVZ9ZMxw==
+"@smartface/native@alpha":
+  version "5.0.7-alpha.24"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.7-alpha.24.tgz#8b1bd68c3dc187539beb3d9f4f730de0bc416728"
+  integrity sha512-wrcn4b3wIy3uSj0EKP34GSwOUv4hOANNRohoaDIn4TvrvSMB+thgIJjDncFQkbalxF2o/TnQSPztyKNLMolCow==
   dependencies:
     abort-controller "^3.0.0"
     events "^3.3.0"

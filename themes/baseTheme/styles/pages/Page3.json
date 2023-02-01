@@ -16,8 +16,20 @@
       }
     },
     "&-flexLayout1": {
-      "width": 396.08,
-      "height": 378.43
+      "width": 396,
+      "height": 234.67
+    },
+    "&-flexLayout2": {
+      "width": 396,
+      "height": 200
+    },
+    "&-btnDismiss": {
+      "width": 201.35,
+      "height": 108.11
+    },
+    "&-gridView1": {
+      "width": 396,
+      "height": 284
     }
   }
 }

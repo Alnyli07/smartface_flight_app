@@ -243,7 +243,7 @@
       "lastY": 344.59
     },
     "&-header": {
-      "transparent": true,
+      "transparent": false,
       "titleColor": "rgba( 0, 0, 0, 1 )",
       "visible": true,
       "borderVisibility": false,

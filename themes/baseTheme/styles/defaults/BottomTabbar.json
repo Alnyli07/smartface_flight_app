@@ -6,6 +6,8 @@
     }
   },
   ".sf": {
-    "&-bottomTabbar": {}
+    "&-bottomTabbar": {
+      "backgroundColor": "rgba( 57, 70, 115, 1 )"
+    }
   }
 }

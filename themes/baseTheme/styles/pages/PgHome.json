@@ -6,11 +6,10 @@
         "endColor": "#A3BFF3",
         "direction": "VERTICAL"
       },
-      "padding": 16,
       "flexProps": {
-        "justifyContent": "SPACE_EVENLY",
-        "flexDirection": "COLUMN"
+        "justifyContent": "FLEX_START"
       },
+      "padding": 16,
       "paddingTop": 25
     },
     "&_header": {
@@ -27,26 +26,30 @@
         "height": 36,
         "width": 36,
         "image": "__sf_gen_img_glyph10.png",
-        "borderRadius": 18,
-        "tintColor": "rgba( 255, 255, 255, 1 )",
         "imageFillType": "ASPECTFIT",
-        "borderWidth": 2,
         "borderColor": "rgba( 255, 255, 255, 1 )",
         "&_not": {
           "image": "__sf_gen_img_bell.png",
-          "borderWidth": 0,
           "width": 20,
           "height": 20,
           "imageFillType": "ASPECTFIT",
-          "tintColor": "rgba( 0, 0, 0, 1 )"
-        }
+          "tintColor": "rgba( 0, 0, 0, 1 )",
+          "borderRadius": 0
+        },
+        "borderRadius": 18
       },
       "&_label": {
         "flexProps": {
           "flexGrow": 1
         },
         "textColor": "rgba( 0, 0, 0, 1 )",
-        "textAlignment": "MIDCENTER"
+        "textAlignment": "MIDCENTER",
+        "ios": {
+          "shadowRadius": 35,
+          "shadowOffset": {
+            "x": 3
+          }
+        }
       },
       "height": 50,
       "backgroundColor": "rgba( 255, 255, 255, 0 )"
@@ -74,17 +77,12 @@
         "right": 0,
         "left": 15,
         "font": {
-          "name": "",
-          "family": "Prompt",
-          "style": "Bold",
-          "bold": true,
-          "italic": false,
-          "size": 30
+          "name": ""
         },
-        "height": 70,
-        "lineSpacing": -4,
+        "height": 85,
         "textAlignment": "MIDLEFT",
-        "backgroundColor": "rgba( 255, 255, 255, 0 )"
+        "backgroundColor": "rgba( 255, 255, 255, 0 )",
+        "lineSpacing": -3
       },
       "padding": null,
       "margin": null
@@ -112,8 +110,7 @@
       "lastY": 125.37
     },
     "&-tvBanner": {
-      "left": 14.86,
-      "top": 114.86,
+      "left": 15,
       "node": null,
       "x": 14.86,
       "y": 114.86,
@@ -144,7 +141,6 @@
           "flexProps": {
             "alignSelf": "CENTER"
           },
-          "borderRadius": 25,
           "backgroundColor": "rgba( 255, 255, 255, 1 )",
           "font": {
             "family": "entypo",
@@ -158,7 +154,8 @@
           "ios": {
             "shadowOffset": {}
           },
-          "height": 50
+          "height": 50,
+          "borderRadius": 25
         },
         "&_title": {
           "font": {
@@ -186,7 +183,8 @@
             "italic": false,
             "bold": false
           },
-          "glyph": ""
+          "glyph": "",
+          "borderWidth": 0
         }
       },
       "&_item3": {

@@ -1,13 +1,13 @@
 {
   "#pgTicket": {
     "&-flwrapper": {
-      "flexProps": {
-        "flexGrow": 1
-      },
-      "marginTop": 130,
+      "flexProps": {},
       "marginLeft": 34,
       "marginRight": 34,
-      "marginBottom": 32
+      "marginBottom": 32,
+      "marginTop": 39,
+      "height": 566,
+      "width": 285
     },
     "&-flshadow": {
       "height": 10,
@@ -26,15 +26,404 @@
         "flexGrow": 1
       },
       "backgroundColor": "rgba( 255, 255, 255, 0.6 )",
-      "borderRadius": 8
+      "borderRadius": 8,
+      "padding": 16
     },
     "&-action": {
-      "marginBottom": 44,
-      "marginTop": 11,
       "width": 83,
       "flexProps": {
         "alignSelf": "CENTER"
       }
+    },
+    "&-flexLayout1": {
+      "flexProps": {
+        "flexDirection": "COLUMN",
+        "flexGrow": 120
+      },
+      "height": null,
+      "width": null,
+      "paddingBottom": 8,
+      "paddingTop": 8
+    },
+    "&-flexLayout2": {
+      "flexProps": {
+        "flexDirection": "COLUMN",
+        "flexGrow": 53
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout3": {
+      "flexProps": {
+        "flexDirection": "ROW",
+        "flexGrow": 53,
+        "alignItems": "CENTER",
+        "justifyContent": "CENTER"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout7": {
+      "flexProps": {
+        "flexDirection": "COLUMN",
+        "flexGrow": 253,
+        "alignItems": "CENTER",
+        "alignContent": "CENTER",
+        "justifyContent": "CENTER"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout8": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "ROW",
+        "justifyContent": "CENTER",
+        "alignItems": "FLEX_END",
+        "alignSelf": "STRETCH",
+        "alignContent": "SPACE_BETWEEN",
+        "flexWrap": "WRAP_REVERSE"
+      },
+      "height": null,
+      "width": null,
+      "&_1": {
+        "&_1": {
+          "flexProps": {
+            "flexWrap": "WRAP",
+            "flexDirection": "ROW"
+          }
+        }
+      }
+    },
+    "&-flexLayout9": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "ROW"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout10": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "ROW",
+        "alignContent": "FLEX_END",
+        "justifyContent": "FLEX_START",
+        "alignItems": "FLEX_END"
+      },
+      "height": null,
+      "width": null,
+      "paddingBottom": 7
+    },
+    "&-flexLayout11": {
+      "flexProps": {
+        "flexDirection": "COLUMN",
+        "flexGrow": 0.8
+      },
+      "height": null
+    },
+    "&-flLogo": {
+      "&-lbl": {
+        "flexProps": {
+          "positionType": "ABSOLUTE"
+        },
+        "font": {
+          "family": "Prompt",
+          "style": "Bold",
+          "bold": true,
+          "italic": false,
+          "size": 11
+        },
+        "textColor": "rgba( 30, 64, 111, 1 )",
+        "left": 0,
+        "right": 0,
+        "bottom": 0,
+        "height": 25
+      },
+      "&-lbl2": {
+        "flexProps": {
+          "positionType": "ABSOLUTE"
+        },
+        "font": {
+          "family": "Prompt",
+          "style": "Regular",
+          "bold": false,
+          "italic": false,
+          "size": 13
+        },
+        "textAlignment": "MIDRIGHT",
+        "textColor": "rgba( 30, 64, 111, 1 )",
+        "right": 0,
+        "left": 0,
+        "bottom": 0,
+        "height": 25
+      },
+      "&-img": {
+        "width": 24,
+        "height": 24,
+        "image": "airlogo.png",
+        "flexProps": {
+          "positionType": "ABSOLUTE"
+        },
+        "left": 20,
+        "top": 18,
+        "imageFillType": "ASPECTFIT"
+      }
+    },
+    "&-flexLayout12": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "ROW",
+        "flexWrap": "WRAP_REVERSE",
+        "justifyContent": "FLEX_START",
+        "alignContent": "STRETCH",
+        "alignSelf": "STRETCH"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout13": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "ROW",
+        "flexWrap": "WRAP"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flInfo": {
+      "&-lbl": {
+        ".right": {
+          "textAlignment": "MIDRIGHT",
+          "top": null,
+          "left": null
+        },
+        "font": {
+          "family": "Prompt",
+          "style": "Bold",
+          "bold": true,
+          "italic": false,
+          "size": 15
+        },
+        "&-second": {
+          "font": {
+            "size": 11,
+            "style": "Regular",
+            "family": "Prompt",
+            "bold": false,
+            "italic": false
+          },
+          "textAlignment": "MIDCENTER",
+          "textColor": "rgba( 0, 0, 0, 0.6 )"
+        },
+        "&-gray": {
+          "font": {
+            "family": "Prompt",
+            "style": "Bold",
+            "bold": true,
+            "italic": false,
+            "size": 15
+          },
+          "textColor": "rgba( 0, 0, 0, 0.65 )"
+        },
+        "flexProps": {
+          "flexGrow": 1,
+          "alignSelf": "STRETCH"
+        },
+        ".left": {
+          "textAlignment": "MIDLEFT",
+          "left": null,
+          "top": null,
+          "flexProps": {}
+        },
+        "height": null,
+        "width": null
+      }
+    },
+    "&-icPlane": {
+      "marginTop": 0,
+      "margin": 0,
+      "height": 20,
+      "width": 20,
+      "font": {
+        "size": 16
+      },
+      "flexProps": {
+        "flexGrow": 0.3
+      }
+    },
+    "&-flLine": {
+      "backgroundColor": "rgba( 0, 0, 0, 0.1 )"
+    },
+    "&-flexLayout14": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "ROW",
+        "alignSelf": "AUTO",
+        "flexWrap": "NOWRAP",
+        "direction": "INHERIT"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout15": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "COLUMN"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout16": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "COLUMN"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout17": {
+      "flexProps": {
+        "flexGrow": 1,
+        "flexDirection": "COLUMN"
+      },
+      "height": null,
+      "width": null
+    },
+    "&-flexLayout18": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "width": null,
+      "backgroundColor": "rgba( 115, 87, 62, 0.41 )"
+    },
+    "&-flexLayout19": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "width": null,
+      "backgroundColor": "rgba( 205, 115, 115, 0.38 )"
+    },
+    "&-qrimg": {
+      "flexProps": {},
+      "image": "flightappqr.png",
+      "imageFillType": "ASPECTFIT",
+      "width": 220,
+      "height": 220,
+      "borderRadius": 18
+    },
+    "&-lblinfo": {
+      "font": {
+        "family": "Prompt",
+        "style": "Regular",
+        "bold": false,
+        "italic": false,
+        "size": 13
+      },
+      "textAlignment": "MIDCENTER",
+      "textColor": "rgba( 0, 0, 0, 0.6 )",
+      ".left": {
+        "textAlignment": "MIDLEFT",
+        "flexProps": {
+          "flexGrow": 2
+        }
+      },
+      ".right": {
+        "textAlignment": "MIDRIGHT",
+        "flexProps": {
+          "flexGrow": 2
+        }
+      },
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "&_5": {
+        "&_1": {
+          "flexProps": {
+            "flexGrow": 0
+          },
+          "width": 34,
+          "textAlignment": "MIDRIGHT",
+          "font": {
+            "size": 15,
+            "family": "Prompt",
+            "style": "Regular",
+            "bold": false,
+            "italic": false
+          },
+          "height": 20
+        }
+      }
+    },
+    "&-lblinfosecond": {
+      "font": {
+        "size": 11,
+        "family": "Prompt",
+        "style": "Bold",
+        "bold": true,
+        "italic": false
+      },
+      "textColor": "rgba( 30, 64, 111, 1 )",
+      ".right": {
+        "flexProps": {},
+        "textAlignment": "MIDRIGHT"
+      },
+      ".left": {
+        "flexProps": {
+          "flexGrow": 1
+        }
+      },
+      "textAlignment": "MIDCENTER"
+    },
+    "&-imguser": {
+      "image": "https://www.gravatar.com/avatar/a0112b54f6d7c03ea40c28a4351acfe3?s=200?a.png",
+      "width": 44,
+      "height": 44,
+      "imageFillType": "ASPECTFIT",
+      "borderRadius": 22
+    },
+    "&-fluser": {
+      "height": null,
+      "flexProps": {
+        "flexGrow": 1,
+        "alignSelf": "STRETCH"
+      },
+      "width": null
+    },
+    "&-userinflbl": {
+      "height": 20,
+      "font": {
+        "family": "Prompt",
+        "style": "Regular",
+        "bold": false,
+        "italic": false,
+        "size": 15
+      },
+      "textColor": "rgba( 30, 64, 111, 1 )"
+    },
+    "&-luserimnfolbl2": {
+      "height": 20,
+      "font": {
+        "size": 13
+      }
+    },
+    "&-icon1": {
+      "width": 25,
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      },
+      "height": 25,
+      "textColor": "rgba( 28, 39, 76, 1 )",
+      "font": {
+        "family": "MaterialIcons",
+        "style": "Regular",
+        "italic": false,
+        "bold": false,
+        "size": 20
+      },
+      "glyph": ""
     }
   }
 }

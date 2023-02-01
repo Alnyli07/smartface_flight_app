@@ -56,6 +56,43 @@
       "width": null,
       "marginBottom": 10,
       "marginTop": 10
+    },
+    "&-flexLayout1": {
+      "width": 385.14,
+      "height": 212.16
+    },
+    "&-gifImageView1": {
+      "flexProps": {}
+    },
+    "&-simple": {
+      "&_listviewItem": {
+        "flexProps": {
+          "positionType": "RELATIVE"
+        },
+        "flex": {
+          "positionType": 0
+        }
+      },
+      "&_gridviewItem": {
+        "flexProps": {
+          "positionType": "RELATIVE"
+        },
+        "height": 227,
+        "flex": {
+          "positionType": 0
+        }
+      }
+    },
+    "&_listview": {
+      "margin": 6,
+      "flexProps": {
+        "flexGrow": 123
+      },
+      "marginTop": 34
+    },
+    "&-listView1": {
+      "width": 383.78,
+      "height": 306.76
     }
   }
 }

@@ -151,15 +151,23 @@
       "lastY": 179
     },
     "&-icMap": {
-      "left": 8,
-      "top": 166,
+      "left": 8.11,
+      "top": 166.22,
       "node": null,
       "x": 8,
       "y": 166,
       "deltaX": 0,
       "deltaY": 0,
       "lastX": 8,
-      "lastY": 166
+      "lastY": 166,
+      "ios": {
+        "shadowOpacity": 0.51,
+        "shadowOffset": {
+          "x": 1,
+          "y": 1
+        },
+        "shadowRadius": 1
+      }
     },
     "backgroundColor": "rgba( 255, 255, 255, 0.6 )",
     "borderWidth": 1,

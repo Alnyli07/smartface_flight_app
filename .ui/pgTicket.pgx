@@ -75,11 +75,598 @@
 			"className": ".sf-flexLayout #pgTicket-flcard",
 			"id": "3e20-a7b2-00ae-88be",
 			"props": {
-				"children": [],
+				"children": [
+					"9d0c-41f2-e1a6-78bc",
+					"a406-526e-cc6a-bc1b",
+					"ff4d-3b9e-bccc-a5c2",
+					"4f57-3ffb-6ffd-2fac",
+					"2ff0-44ee-cde3-f20f",
+					"ba19-2f53-65f9-ed5f",
+					"bb14-789d-7856-d4ce"
+				],
 				"name": "flexLayout6",
 				"parent": "44d0-3e2a-ee09-d368"
 			},
 			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout1",
+			"id": "9d0c-41f2-e1a6-78bc",
+			"props": {
+				"children": [
+					"3a68-a67e-00c9-2476",
+					"c4ae-4f35-7b8e-b175"
+				],
+				"name": "flexLayout1",
+				"parent": "3e20-a7b2-00ae-88be"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout10",
+			"id": "3a68-a67e-00c9-2476",
+			"props": {
+				"children": [
+					"5005-a487-7c03-369a",
+					"be27-8035-23bd-9663",
+					"728c-8344-1911-942f"
+				],
+				"name": "flexLayout10",
+				"parent": "9d0c-41f2-e1a6-78bc"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-imageView #pgTicket-flLogo-img",
+			"id": "5005-a487-7c03-369a",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "3a68-a67e-00c9-2476"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgTicket-flLogo-lbl",
+			"id": "be27-8035-23bd-9663",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "3a68-a67e-00c9-2476",
+				"text": "Air Canada"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Air Canada"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flLogo-lbl2",
+			"id": "728c-8344-1911-942f",
+			"props": {
+				"children": [],
+				"name": "label1_1",
+				"parent": "3a68-a67e-00c9-2476",
+				"text": "December 16h, 2022"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "December 16h, 2022"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout11",
+			"id": "c4ae-4f35-7b8e-b175",
+			"props": {
+				"children": [
+					"302e-ee26-b9cf-9bc4",
+					"3756-d980-d929-28f5"
+				],
+				"name": "flexLayout11",
+				"parent": "9d0c-41f2-e1a6-78bc"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout12",
+			"id": "302e-ee26-b9cf-9bc4",
+			"props": {
+				"children": [
+					"7ca7-ccba-583c-050b",
+					"35a7-0f45-0e95-c9c3",
+					"cafc-2170-dded-9dba"
+				],
+				"name": "flexLayout12",
+				"parent": "c4ae-4f35-7b8e-b175"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-flInfo-lbl.left",
+			"id": "7ca7-ccba-583c-050b",
+			"props": {
+				"children": [],
+				"name": "label1_2",
+				"parent": "302e-ee26-b9cf-9bc4",
+				"text": "07h05"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "07h05"
+			}
+		},
+		{
+			"className": ".sf-icon #pgSearchFlightDetails-flSvg-icon .flightItem-plane #pgTicket-icPlane",
+			"id": "35a7-0f45-0e95-c9c3",
+			"oldName": "ic",
+			"props": {
+				"children": [],
+				"name": "icPlane",
+				"parent": "302e-ee26-b9cf-9bc4"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-flInfo-lbl.right",
+			"id": "cafc-2170-dded-9dba",
+			"props": {
+				"children": [],
+				"name": "label1_3",
+				"parent": "302e-ee26-b9cf-9bc4",
+				"text": "20h05"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "20h05"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout13",
+			"id": "3756-d980-d929-28f5",
+			"props": {
+				"children": [
+					"334f-00ea-ce0c-b699",
+					"ade8-fb15-e95f-84ce",
+					"b035-7c03-5189-0247"
+				],
+				"name": "flexLayout13",
+				"parent": "c4ae-4f35-7b8e-b175"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-flInfo-lbl.left #pgTicket-flInfo-lbl-gray",
+			"id": "334f-00ea-ce0c-b699",
+			"props": {
+				"children": [],
+				"name": "label1_2_1",
+				"parent": "3756-d980-d929-28f5",
+				"text": "YUL"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "YUL"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-flInfo-lbl.left #pgTicket-flInfo-lbl-second",
+			"id": "ade8-fb15-e95f-84ce",
+			"props": {
+				"children": [],
+				"name": "label1_2_1_1",
+				"parent": "3756-d980-d929-28f5",
+				"text": "13h00"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "13h00"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-flInfo-lbl.right #pgTicket-flInfo-lbl-gray",
+			"id": "b035-7c03-5189-0247",
+			"props": {
+				"children": [],
+				"name": "label1_3_1",
+				"parent": "3756-d980-d929-28f5",
+				"text": "NRT"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "NRT"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-line #pgTicket-flLine",
+			"id": "a406-526e-cc6a-bc1b",
+			"oldName": "flexLayout3_1",
+			"props": {
+				"children": [],
+				"name": "flLine",
+				"parent": "3e20-a7b2-00ae-88be"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout2",
+			"id": "ff4d-3b9e-bccc-a5c2",
+			"props": {
+				"children": [
+					"1bf2-74a2-8280-6d9f",
+					"4493-255d-a2ea-717a"
+				],
+				"name": "flexLayout2",
+				"parent": "3e20-a7b2-00ae-88be"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout8",
+			"id": "1bf2-74a2-8280-6d9f",
+			"props": {
+				"children": [
+					"8373-aadc-e952-4816",
+					"c92b-ef48-7aed-783c",
+					"e776-3f1b-0ece-9e6b",
+					"c260-d2f0-af6d-9994"
+				],
+				"name": "flexLayout8",
+				"parent": "ff4d-3b9e-bccc-a5c2"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo #pgTicket-lblinfo.left",
+			"id": "8373-aadc-e952-4816",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo",
+				"parent": "1bf2-74a2-8280-6d9f",
+				"text": "Economy"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Economy"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo",
+			"id": "c92b-ef48-7aed-783c",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_3",
+				"parent": "1bf2-74a2-8280-6d9f",
+				"text": "8"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "8"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo",
+			"id": "e776-3f1b-0ece-9e6b",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_4",
+				"parent": "1bf2-74a2-8280-6d9f",
+				"text": "3"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "3"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo #pgTicket-lblinfo.right",
+			"id": "c260-d2f0-af6d-9994",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_5",
+				"parent": "1bf2-74a2-8280-6d9f",
+				"text": "AC006"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "AC006"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout9",
+			"id": "4493-255d-a2ea-717a",
+			"props": {
+				"children": [
+					"376f-2ff5-ee44-cdf5",
+					"4eda-92b9-4a09-5584",
+					"3b31-9eb1-42bf-bc78",
+					"6d5b-36e4-47e3-f950"
+				],
+				"name": "flexLayout9",
+				"parent": "ff4d-3b9e-bccc-a5c2"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo #pgTicket-lblinfosecond #pgTicket-lblinfosecond.left",
+			"id": "376f-2ff5-ee44-cdf5",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_6",
+				"parent": "4493-255d-a2ea-717a",
+				"text": "Class"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Class"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo #pgTicket-lblinfosecond",
+			"id": "4eda-92b9-4a09-5584",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_6_1",
+				"parent": "4493-255d-a2ea-717a",
+				"text": "Gate"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Gate"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo #pgTicket-lblinfosecond",
+			"id": "3b31-9eb1-42bf-bc78",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_6_2",
+				"parent": "4493-255d-a2ea-717a",
+				"text": "Terminal"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Terminal"
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo #pgTicket-lblinfosecond #pgTicket-lblinfosecond.right",
+			"id": "6d5b-36e4-47e3-f950",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_6_3",
+				"parent": "4493-255d-a2ea-717a",
+				"text": "Flight"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Flight"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-line #pgTicket-flLine",
+			"id": "4f57-3ffb-6ffd-2fac",
+			"oldName": "flexLayout3_1",
+			"props": {
+				"children": [],
+				"name": "flLine_1",
+				"parent": "3e20-a7b2-00ae-88be"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout3",
+			"id": "2ff0-44ee-cde3-f20f",
+			"props": {
+				"children": [
+					"aada-e3d1-c2b2-6a54",
+					"6948-41ae-804a-1495"
+				],
+				"name": "flexLayout3",
+				"parent": "3e20-a7b2-00ae-88be"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-imageView #pgTicket-imguser",
+			"id": "aada-e3d1-c2b2-6a54",
+			"props": {
+				"children": [],
+				"name": "imageView3",
+				"parent": "2ff0-44ee-cde3-f20f"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-fluser",
+			"id": "6948-41ae-804a-1495",
+			"props": {
+				"children": [
+					"2b84-1e53-8163-c262",
+					"07e2-b416-63fa-116f"
+				],
+				"name": "flexLayout19",
+				"parent": "2ff0-44ee-cde3-f20f"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout8",
+			"id": "2b84-1e53-8163-c262",
+			"props": {
+				"children": [
+					"a5b5-07ec-b18e-2e35",
+					"6008-6b7c-1a8d-29a8",
+					"069f-6625-c001-76a3"
+				],
+				"name": "flexLayout8_1",
+				"parent": "6948-41ae-804a-1495"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo.left #pgTicket-userinflbl",
+			"id": "a5b5-07ec-b18e-2e35",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_7",
+				"parent": "2b84-1e53-8163-c262",
+				"text": "Ali Tuğrul P."
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Ali Tuğrul P."
+			}
+		},
+		{
+			"className": ".sf-icon #pgTicket-icon1",
+			"id": "6008-6b7c-1a8d-29a8",
+			"props": {
+				"children": [],
+				"name": "icon1",
+				"parent": "2b84-1e53-8163-c262"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo #pgTicket-lblinfo.right #pgTicket-lblinfo_5_1",
+			"id": "069f-6625-c001-76a3",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_5_1",
+				"parent": "2b84-1e53-8163-c262",
+				"text": "29A"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "29A"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout8 #pgTicket-flexLayout8_1_1",
+			"id": "07e2-b416-63fa-116f",
+			"props": {
+				"children": [
+					"41bb-f829-5c32-56ee"
+				],
+				"name": "flexLayout8_1_1",
+				"parent": "6948-41ae-804a-1495"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label #pgTicket-flInfo-lbl #pgTicket-lblinfo #pgTicket-lblinfo.left #pgTicket-luserimnfolbl2",
+			"id": "41bb-f829-5c32-56ee",
+			"oldName": "label1_2_1_1_1",
+			"props": {
+				"children": [],
+				"name": "lblinfo_7_1",
+				"parent": "07e2-b416-63fa-116f",
+				"text": "30 years, Male"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "30 years, Male"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgSearchFlightDetails-line #pgTicket-flLine",
+			"id": "ba19-2f53-65f9-ed5f",
+			"oldName": "flexLayout3_1",
+			"props": {
+				"children": [],
+				"name": "flLine_2",
+				"parent": "3e20-a7b2-00ae-88be"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #pgTicket-flexLayout7",
+			"id": "bb14-789d-7856-d4ce",
+			"props": {
+				"children": [
+					"342c-3110-aeaa-4b90"
+				],
+				"name": "flexLayout7",
+				"parent": "3e20-a7b2-00ae-88be"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-imageView #pgTicket-qrimg",
+			"id": "342c-3110-aeaa-4b90",
+			"props": {
+				"children": [],
+				"name": "imageView2",
+				"parent": "bb14-789d-7856-d4ce"
+			},
+			"type": "ImageView",
 			"userProps": {}
 		},
 		{

@@ -1,0 +1,40 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flexLayout1 .testclass",
+			"id": "b4c3-6d2e-8b44-d2a6",
+			"props": {
+				"children": [
+					"754e-5332-9c0a-951b"
+				],
+				"name": "flexLayout1",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 10.81,
+				"top": 77.03
+			}
+		},
+		{
+			"className": ".sf-button .myclass",
+			"id": "754e-5332-9c0a-951b",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "b4c3-6d2e-8b44-d2a6",
+				"text": "button1"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "button1"
+			}
+		}
+	]
+}

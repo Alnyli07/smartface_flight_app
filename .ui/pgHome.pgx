@@ -82,7 +82,7 @@
 			}
 		},
 		{
-			"className": ".sf-bottomTabbar #pgHome-bottomTabbar",
+			"className": ".sf-bottomTabbar .bottomtabbar #pgHome-bottomTabbar",
 			"hiddenComponent": false,
 			"id": "4faa-9d52-6069-119b",
 			"props": {
@@ -133,19 +133,19 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-textView #pgHome_banner_label #pgHome-tvBanner",
+			"className": ".sf-textView #pgHome_banner_label",
 			"id": "168b-481b-8f98-4fdd",
 			"oldName": "textView1",
 			"props": {
 				"children": [],
-				"html": "<div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px;\">Let’s Discover</span></div><div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px;\">a New Country !</span></div>",
+				"html": "<div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px; font-family: Prompt-Bold;\"><font style=\"font-size: 30px; color: rgba(11, 15, 55, 0.69); font-family: Prompt-Bold;\">Let’s Discover</font></span></div><div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px; font-family: Prompt-Bold;\"><font style=\"font-size: 30px; color: rgba(11, 15, 55, 0.69); font-family: Prompt-Bold;\">a New Country !</font></span></div>",
 				"name": "tvBanner",
 				"parent": "1f5c-5686-f8c7-8a7e",
 				"text": "Let’s Discover\na New Country !"
 			},
 			"type": "TextView",
 			"userProps": {
-				"html": "<div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px;\">Let’s Discover</span></div><div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px;\">a New Country !</span></div>",
+				"html": "<div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px; font-family: Prompt-Bold;\"><font style=\"font-size: 30px; color: rgba(11, 15, 55, 0.69); font-family: Prompt-Bold;\">Let’s Discover</font></span></div><div style=\"font-size: 16.2162px; line-height: 18px; white-space: pre;\"><span style=\"color: rgba(11, 15, 55, 0.69); font-size: 30px; font-family: Prompt-Bold;\"><font style=\"font-size: 30px; color: rgba(11, 15, 55, 0.69); font-family: Prompt-Bold;\">a New Country !</font></span></div>",
 				"text": "Let’s Discover\na New Country !"
 			}
 		},
@@ -376,7 +376,7 @@
 			}
 		},
 		{
-			"className": ".sf-gridViewItem #pgHome-cartItem",
+			"className": ".sf-gridViewItem .cartItem_main #pgHome-cartItem",
 			"hiddenComponent": false,
 			"id": "3a26-59e1-69ea-a87d",
 			"oldName": "gridViewItem1",

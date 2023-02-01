@@ -52,5 +52,14 @@
       "marginTop": null,
       "right": 0
     }
+  },
+  ".simple": {
+    "&-gridviewItem": {
+      "backgroundColor": {
+        "startColor": "rgba( 189, 16, 224, 1 )",
+        "endColor": "rgba( 248, 231, 28, 1 )",
+        "direction": "DIAGONAL_RIGHT"
+      }
+    }
   }
 }

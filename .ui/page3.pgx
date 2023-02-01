@@ -8,8 +8,10 @@
 				"children": [
 					"3c37-e011-a7a3-b5d9",
 					"19da-8571-e870-cd5a",
+					"d966-5532-49cb-965e",
 					"8bad-2c7f-ff52-0c73",
-					"8a7b-39cd-f062-5227"
+					"1bd7-13d8-bd6c-2cee",
+					"fc55-d0cd-b144-942b"
 				],
 				"name": "page3",
 				"orientation": "PORTRAIT",
@@ -50,10 +52,41 @@
 			}
 		},
 		{
+			"className": ".sf-flexLayout #page3-flexLayout2",
+			"id": "d966-5532-49cb-965e",
+			"props": {
+				"children": [
+					"349a-c464-ca5c-bb91"
+				],
+				"name": "flexLayout2",
+				"parent": "c56a-6909-78ff-2657"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView",
+			"id": "349a-c464-ca5c-bb91",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 22px; white-space: pre-wrap; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">Lorem ipsu</span><span style=\"font-family: SFProText-Regular; font-size: 22px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); color: rgb(126, 211, 33);\">m dos</span><span style=\"font-family: SFProText-Regular; font-size: 22px; white-space: pre-wrap; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">lor sit amet, consectetur </span><span style=\"font-size: 14px; white-space: pre-wrap; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0); font-family: SFProText-Semibold;\">adipiscing elit.</span><span style=\"font-family: SFProText-Regular; font-size: 22px; white-space: pre-wrap; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\"> <span style=\"color: rgb(0, 161, 241); font-size: 22px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0);\">Do<span style=\"font-size: 20px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); text-decoration-color: rgb(0, 0, 0);\">nescs qui</span>s semper justo. In ultrices metus nec sodales consectetur.</span>  Aliquam erat volutpat. <span style=\"font-size: 22px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline; color: rgb(0, 0, 0);\">Suspendisse</span> potenti.</span><br>",
+				"name": "textView1",
+				"parent": "d966-5532-49cb-965e",
+				"text": "Lorem ipsum doslor sit amet, consectetur adipiscing elit. Donescs quis semper justo. In ultrices metus nec sodales consectetur.  Aliquam erat volutpat. Suspendisse potenti.\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 22px; white-space: pre-wrap; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">Lorem ipsu</span><span style=\"font-family: SFProText-Regular; font-size: 22px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); color: rgb(126, 211, 33);\">m dos</span><span style=\"font-family: SFProText-Regular; font-size: 22px; white-space: pre-wrap; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\">lor sit amet, consectetur </span><span style=\"font-size: 14px; white-space: pre-wrap; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0); font-family: SFProText-Semibold;\">adipiscing elit.</span><span style=\"font-family: SFProText-Regular; font-size: 22px; white-space: pre-wrap; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0);\"> <span style=\"color: rgb(0, 161, 241); font-size: 22px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0);\">Do<span style=\"font-size: 20px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241); text-decoration-color: rgb(0, 0, 0);\">nescs qui</span>s semper justo. In ultrices metus nec sodales consectetur.</span>  Aliquam erat volutpat. <span style=\"font-size: 22px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline; color: rgb(0, 0, 0);\">Suspendisse</span> potenti.</span><br>",
+				"text": "Lorem ipsum doslor sit amet, consectetur adipiscing elit. Donescs quis semper justo. In ultrices metus nec sodales consectetur.  Aliquam erat volutpat. Suspendisse potenti.\n"
+			}
+		},
+		{
 			"className": ".sf-flexLayout #page3-flayout #page3-flexLayout1",
 			"id": "8bad-2c7f-ff52-0c73",
 			"props": {
-				"children": [],
+				"children": [
+					"7f2c-1007-2179-78bc"
+				],
 				"name": "flexLayout1",
 				"parent": "c56a-6909-78ff-2657"
 			},
@@ -61,8 +94,59 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-button #page3-btnGoBack",
-			"id": "8a7b-39cd-f062-5227",
+			"className": ".sf-textView",
+			"id": "7f2c-1007-2179-78bc",
+			"props": {
+				"children": [],
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adip<span style=\"font-size: 11px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255);\">iscing elit. </span><span style=\"color: rgb(0, 161, 241); font-size: 17.3914px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255);\"><span style=\"font-size: 11px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241);\">Donec</span> qusis semper justo. In  \n  ultrices metus nec sodales consectetur.</span> \n  Aliquam erat volutpat. <span style=\"font-size: 16px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline;\">Suspendisse</span> potenti.ss</span><br>",
+				"name": "textView2",
+				"parent": "8bad-2c7f-ff52-0c73",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec qusis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti.ss\n"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"font-family: SFProText-Regular; font-size: 16px; white-space: pre-wrap; background-color: rgb(255, 255, 255);\">Lorem ipsum dolor sit amet, consectetur \n  adip<span style=\"font-size: 11px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255);\">iscing elit. </span><span style=\"color: rgb(0, 161, 241); font-size: 17.3914px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255);\"><span style=\"font-size: 11px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); color: rgb(0, 161, 241);\">Donec</span> qusis semper justo. In  \n  ultrices metus nec sodales consectetur.</span> \n  Aliquam erat volutpat. <span style=\"font-size: 16px; font-family: SFProText-Regular; background-color: rgb(255, 255, 255); text-decoration-color: rgb(0, 0, 0); text-decoration-line: underline;\">Suspendisse</span> potenti.ss</span><br>",
+				"text": "Lorem ipsum dolor sit amet, consectetur \n  adipiscing elit. Donec qusis semper justo. In  \n  ultrices metus nec sodales consectetur. \n  Aliquam erat volutpat. Suspendisse potenti.ss\n"
+			}
+		},
+		{
+			"className": ".sf-gridView #page3-gridView1",
+			"id": "1bd7-13d8-bd6c-2cee",
+			"props": {
+				"children": [
+					"b952-3d5d-2211-0a45"
+				],
+				"itemCount": 5,
+				"itemLength": 227,
+				"layoutManager": {
+					"spanCount": 2
+				},
+				"name": "gridView1",
+				"parent": "c56a-6909-78ff-2657"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 5,
+				"itemLength": 227,
+				"layoutManager": {
+					"spanCount": 2
+				}
+			}
+		},
+		{
+			"className": ".sf-gridViewItem",
+			"id": "b952-3d5d-2211-0a45",
+			"props": {
+				"children": [],
+				"name": "gridViewItem1",
+				"parent": "1bd7-13d8-bd6c-2cee"
+			},
+			"type": "GridViewItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button #page3-btnGoBack #page3-btnDismiss .my-button",
+			"id": "fc55-d0cd-b144-942b",
 			"oldName": "btnDismis",
 			"props": {
 				"children": [],

@@ -34,6 +34,20 @@
       "shadowColor": "rgba( 144, 19, 254, 1 )",
       "android": {
         "elevation": 5
+      },
+      "&_1": {
+        "&_1": {
+          "width": 395.95,
+          "ios": {
+            "shadowOffset": {
+              "x": 5,
+              "y": 5
+            },
+            "shadowRadius": 5
+          },
+          "shadowColor": "rgba( 39, 108, 92, 1 )",
+          "height": 44.59
+        }
       }
     },
     "&-btnNext": {
@@ -41,7 +55,7 @@
         "alignSelf": "AUTO",
         "positionType": "RELATIVE"
       },
-      "width": null,
+      "width": 396,
       "backgroundColor": {
         "normal": {
           "startColor": "rgba( 236, 13, 41, 1 )",
@@ -62,7 +76,8 @@
         "shadowOpacity": 0.63,
         "shadowRadius": 20
       },
-      "shadowColor": "rgba( 214, 199, 22, 1 )"
+      "shadowColor": "rgba( 214, 199, 22, 1 )",
+      "height": 44
     },
     "&-wrapper": {
       "flexProps": {
@@ -73,9 +88,10 @@
       "width": 23
     },
     "&-flWrapper": {
-      "width": 403.26,
-      "height": 639.13,
-      "borderColor": "rgba( 148, 33, 33, 1 )"
+      "width": 396,
+      "height": 436,
+      "borderColor": "rgba( 148, 33, 33, 1 )",
+      "flexProps": {}
     },
     "&-textBox1": {
       "borderWidth": 5,
@@ -95,8 +111,7 @@
         "shadowRadius": 20,
         "shadowOpacity": 0.53
       },
-      "width": 356,
-      "height": 52
+      "width": 356
     },
     "&-testfl": {
       "backgroundColor": {
@@ -111,10 +126,9 @@
       }
     },
     "&-testimg": {
-      "flexProps": {
-        "flexGrow": 1.2
-      },
-      "image": "__sf_gen_img_home.png"
+      "flexProps": {},
+      "image": "__sf_gen_img_home.png",
+      "height": 100
     },
     "&-textView1": {
       "width": 396,
@@ -124,6 +138,105 @@
       "font": {
         "size": 12
       }
+    },
+    "&-button1": {
+      "flexProps": {}
+    },
+    "&-bottomTabbar": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-flexLayout1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-cartItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-gridview": {
+      "flexProps": {}
+    },
+    "&-mybutton": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "width": 100
+    },
+    "&-button2": {
+      "left": 314.87,
+      "top": 28.38,
+      "width": 166.22,
+      "height": 71.62
+    },
+    "&-textBox2": {
+      "height": 63.51,
+      "width": 355.41,
+      "flexProps": {}
+    },
+    "&-mygrid": {
+      "flexProps": {},
+      "backgroundColor": "rgba( 159, 232, 50, 0.41 )"
+    },
+    "&-slider1": {
+      "width": 396
+    },
+    "&-lvitem": {
+      "flexProps": {
+        "flexDirection": "ROW"
+      },
+      "&-mt": {
+        "flexProps": {
+          "flexGrow": 1
+        }
+      }
+    },
+    "&-ic": {
+      "font": {
+        "family": "FontAwesome5FreeRegular",
+        "italic": false,
+        "bold": false
+      },
+      "glyph": ""
+    },
+    "&-materialTextBox1": {
+      "errorMessage": "Errror"
+    },
+    "&-gridView1": {
+      "&_1": {
+        "width": 396,
+        "height": 375,
+        "margin": 6
+      }
+    },
+    "&-listview": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "width": 200
+    },
+    "&-listView1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "margin": 20,
+      "ios": {
+        "shadowRadius": 2
+      },
+      "width": 336.49,
+      "height": 216.22
     }
   }
 }

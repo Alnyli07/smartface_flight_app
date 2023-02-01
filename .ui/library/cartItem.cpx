@@ -16,8 +16,8 @@
 			},
 			"type": "GridViewItem",
 			"userProps": {
-				"left": 92,
-				"top": 52
+				"left": 72.97,
+				"top": 575.68
 			}
 		},
 		{
@@ -52,7 +52,7 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-icon .cartItem_map",
+			"className": ".sf-icon .cartItem_map .cartItem-icMap",
 			"id": "4f97-2c80-1c28-f578",
 			"oldName": "icon1",
 			"props": {

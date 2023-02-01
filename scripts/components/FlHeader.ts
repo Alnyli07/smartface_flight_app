@@ -12,7 +12,7 @@ export default class FlHeader extends FlHeaderDesign {
             this.img.loadFromUrl({
                 url: 'https://www.gravatar.com/avatar/a0112b54f6d7c03ea40c28a4351acfe3?s=200&fake.png',
                 onSuccess: () => {
-                    console.info('Success: ', this.img.image);
+                    //console.info('Success: ', this.img.image);
                     //this.img.image = (this.img.image as Image).android.round(100);
                 }
             })
